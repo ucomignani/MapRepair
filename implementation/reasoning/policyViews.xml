@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema>
+    <relations>
+        <view name="mothers_social_data">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="mother_id" type="java.lang.String"/>
+            <attribute name="date_of_birth" type="java.lang.String"/>
+            <attribute name="country_of_birth" type="java.lang.String"/>
+            <attribute name="birth_place" type="java.lang.String"/>
+            <attribute name="country_of_residence" type="java.lang.String"/>
+            <attribute name="occupation" type="java.lang.String"/>
+            <attribute name="social_class" type="java.lang.String"/>
+        </view>
+
+        <view name="fathers_social_data">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="corresponding_mother_id" type="java.lang.String"/>
+            <attribute name="country_of_birth" type="java.lang.String"/>
+            <attribute name="occupation" type="java.lang.String"/>
+            <attribute name="employment_status" type="java.lang.String"/>
+            <attribute name="social_class" type="java.lang.String"/>
+        </view>
+
+        <view name="child_longevity_data">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="sex" type="java.lang.String"/>
+            <attribute name="institution" type="java.lang.String"/>
+            <attribute name="date_of_birth" type="java.lang.String"/>
+            <attribute name="date_of_death" type="java.lang.String"/>
+        </view>
+
+        <view name="prescribed_drugs_evolution_data">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="prescribable_item_name" type="java.lang.String"/>
+            <attribute name="prescribable_item_strength" type="java.lang.String"/>
+            <attribute name="prescribable_item_drug_formulation" type="java.lang.String"/>
+            <attribute name="prescribable_item_type" type="java.lang.String"/>
+            <attribute name="prescribable_item_bnf_code" type="java.lang.String"/>
+            <attribute name="prescribed_date" type="java.lang.String"/>
+            <attribute name="dispensed_date" type="java.lang.String"/>
+            <attribute name="daily_defined_doses" type="java.lang.String"/>
+        </view>
+
+        <view name="death_causes_data">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="age" type="java.lang.String"/>
+            <attribute name="sex" type="java.lang.String"/>
+            <attribute name="country_of_birth" type="java.lang.String"/>
+            <attribute name="country_of_residence" type="java.lang.String"/>
+            <attribute name="occupation" type="java.lang.String"/>
+            <attribute name="socio_economic_group" type="java.lang.String"/>
+            <attribute name="ethnicity_code" type="java.lang.String"/>
+            <attribute name="date_of_death" type="java.lang.String"/>
+            <attribute name="primary_cause_of_death" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_0" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_1" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_2" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_3" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_4" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_5" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_6" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_7" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_8" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_9" type="java.lang.String"/>
+        </view>
+
+        <view name="link_death_drugs_data">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="prescribed_drug_id" type="java.lang.String"/>
+            <attribute name="death_id" type="java.lang.String"/>
+        </view>
+
+        <relation name="birth">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="study_id_mother" type="java.math.BigInteger"/>
+            <attribute name="study_id_child" type="java.math.BigInteger"/>
+            <attribute name="sex" type="java.lang.String"/>
+            <attribute name="total_births_live_and_still" type="java.lang.String"/>
+            <attribute name="live_males" type="java.lang.String"/>
+            <attribute name="live_females" type="java.lang.String"/>
+            <attribute name="stillborn_males" type="java.lang.String"/>
+            <attribute name="stillborn_sex_not_known" type="java.lang.String"/>
+            <attribute name="liveborn_sex_not_known" type="java.lang.String"/>
+            <attribute name="council_area" type="java.lang.String"/>
+            <attribute name="institution" type="java.lang.String"/>
+            <attribute name="mother_country_of_residence" type="java.lang.String"/>
+            <attribute name="mother_country_of_birth" type="java.lang.String"/>
+            <attribute name="occupation" type="java.lang.String"/>
+            <attribute name="employment_status" type="java.lang.String"/>
+            <attribute name="socio_economic_group" type="java.lang.String"/>
+            <attribute name="father_country_of_birth" type="java.lang.String"/>
+            <attribute name="health_board_area" type="java.lang.String"/>
+            <attribute name="mother_occupation" type="java.lang.String"/>
+            <attribute name="mother_occupation_code" type="java.lang.String"/>
+            <attribute name="mother_social_class" type="java.lang.String"/>
+            <attribute name="father_occupation" type="java.lang.String"/>
+            <attribute name="father_occupation_code" type="java.lang.String"/>
+            <attribute name="father_employment_status" type="java.lang.String"/>
+            <attribute name="father_social_class" type="java.lang.String"/>
+            <attribute name="multiple_births_linked_records" type="java.lang.String"/>
+            <attribute name="postcode" type="java.lang.String"/>
+            <attribute name="date_of_birth_str" type="java.lang.String"/>
+            <attribute name="date_of_birth" type="java.lang.String"/>
+            <attribute name="time_of_birth" type="java.lang.String"/>
+            <attribute name="year_of_registration" type="java.lang.String"/>
+            <attribute name="registration_district" type="java.lang.String"/>
+            <attribute name="entry_number" type="java.lang.String"/>
+        </relation>
+
+        <relation name="death">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="study_id" type="java.math.BigInteger"/>
+            <attribute name="date_of_death_str" type="java.lang.String"/>
+            <attribute name="date_of_death" type="java.lang.String"/>
+            <attribute name="primary_cause_of_death" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_0" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_1" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_2" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_3" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_4" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_5" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_6" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_7" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_8" type="java.lang.String"/>
+            <attribute name="secondary_cause_of_death_9" type="java.lang.String"/>
+            <attribute name="age" type="java.lang.String"/>
+            <attribute name="sex" type="java.lang.String"/>
+            <attribute name="date_of_registration_str" type="java.lang.String"/>
+            <attribute name="date_of_registration" type="java.lang.String"/>
+            <attribute name="institution" type="java.lang.String"/>
+            <attribute name="post_mortem_indicator" type="java.lang.String"/>
+            <attribute name="country_of_residence" type="java.lang.String"/>
+            <attribute name="country_of_birth" type="java.lang.String"/>
+            <attribute name="occupation" type="java.lang.String"/>
+            <attribute name="socio_economic_group" type="java.lang.String"/>
+            <attribute name="employment_status" type="java.lang.String"/>
+            <attribute name="council_area" type="java.lang.String"/>
+            <attribute name="place_of_occurrence" type="java.lang.String"/>
+            <attribute name="found_dead_indicator" type="java.lang.String"/>
+            <attribute name="time_of_death" type="java.lang.String"/>
+            <attribute name="hbres_currentdate" type="java.lang.String"/>
+            <attribute name="hbres_keydate" type="java.lang.String"/>
+            <attribute name="procurator_fiscal_status" type="java.lang.String"/>
+            <attribute name="procurator_fiscal_code" type="java.lang.String"/>
+            <attribute name="ethnicity_indicator" type="java.lang.String"/>
+            <attribute name="ethnicity_code" type="java.lang.String"/>
+            <attribute name="deceased_occupation_code" type="java.lang.String"/>
+            <attribute name="deceased_employment_status" type="java.lang.String"/>
+            <attribute name="age_less_than_2_yrs" type="java.lang.String"/>
+            <attribute name="age_units" type="java.lang.String"/>
+            <attribute name="orig_cause_of_death_text_1a" type="java.lang.String"/>
+            <attribute name="orig_cause_of_death_text_1b" type="java.lang.String"/>
+            <attribute name="orig_cause_of_death_text_1c" type="java.lang.String"/>
+            <attribute name="orig_cause_of_death_text_1d" type="java.lang.String"/>
+            <attribute name="postcode" type="java.lang.String"/>
+            <attribute name="infant_death_birth_reg_year" type="java.lang.String"/>
+            <attribute name="infant_death_birth_reg_dist" type="java.lang.String"/>
+            <attribute name="infant_death_birth_entry_no" type="java.lang.String"/>
+            <attribute name="year_of_registration" type="java.lang.String"/>
+            <attribute name="registration_district" type="java.lang.String"/>
+            <attribute name="entry_number" type="java.lang.String"/>
+        </relation>
+
+        <relation name="patient">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="study_id" type="java.math.BigInteger"/>
+            <attribute name="nhs_number" type="java.lang.String"/>
+            <attribute name="ew_number" type="java.lang.String"/>
+            <attribute name="ni_number" type="java.lang.String"/>
+            <attribute name="forename" type="java.lang.String"/>
+            <attribute name="middle_name" type="java.lang.String"/>
+            <attribute name="surname" type="java.lang.String"/>
+            <attribute name="date_of_birth" type="java.lang.String"/>
+            <attribute name="country_of_birth" type="java.lang.String"/>
+            <attribute name="date_of_death" type="java.lang.String"/>
+            <attribute name="birth_place" type="java.lang.String"/>
+            <attribute name="mothers_birth_name" type="java.lang.String"/>
+            <attribute name="postcode" type="java.lang.String"/>
+            <attribute name="sex" type="java.lang.String"/>
+            <attribute name="uprn" type="java.lang.String"/>
+            <attribute name="postcode_source" type="java.lang.String"/>
+        </relation>
+
+        <relation name="pis_e_prescribing">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="study_id" type="java.math.BigInteger"/>
+            <attribute name="prescribed_date" type="java.lang.String"/>
+            <attribute name="dispensed_date" type="java.lang.String"/>
+            <attribute name="paid_date" type="java.lang.String"/>
+            <attribute name="prescribable_item_approved_name" type="java.lang.String"/>
+            <attribute name="prescribable_item_name" type="java.lang.String"/>
+            <attribute name="prescribable_item_strength_uom" type="java.lang.String"/>
+            <attribute name="prescribable_item_drug_formulation" type="java.lang.String"/>
+            <attribute name="prescribable_item_type" type="java.lang.String"/>
+            <attribute name="prescribable_item_description" type="java.lang.String"/>
+            <attribute name="prescribable_item_bnf_item_code" type="java.lang.String"/>
+            <attribute name="paid_quantity" type="java.lang.String"/>
+            <attribute name="number_of_paid_items" type="java.lang.String"/>
+            <attribute name="daily_defined_doses" type="java.lang.String"/>
+            <attribute name="native_dose_instruction" type="java.lang.String"/>
+            <attribute name="amount_min" type="java.lang.String"/>
+            <attribute name="amount_max" type="java.lang.String"/>
+            <attribute name="amount_unit" type="java.lang.String"/>
+            <attribute name="timing_freq_min" type="java.lang.String"/>
+            <attribute name="timing_freq_max" type="java.lang.String"/>
+            <attribute name="timing_freq_unit" type="java.lang.String"/>
+            <attribute name="timing_interval_min" type="java.lang.String"/>
+            <attribute name="timing_interval_max" type="java.lang.String"/>
+            <attribute name="timing_interval_unit" type="java.lang.String"/>
+            <attribute name="as_required" type="java.lang.String"/>
+            <attribute name="as_directed" type="java.lang.String"/>
+        </relation>
+
+        <relation name="smr01">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="study_id" type="java.math.BigInteger"/>
+            <attribute name="uri" type="java.lang.String"/>
+            <attribute name="admission_date_str" type="java.lang.String"/>
+            <attribute name="admission_date" type="java.lang.String"/>
+            <attribute name="admission_type" type="java.lang.String"/>
+            <attribute name="admission_reason" type="java.lang.String"/>
+            <attribute name="discharge_date_str" type="java.lang.String"/>
+            <attribute name="discharge_date" type="java.lang.String"/>
+            <attribute name="discharge_type" type="java.lang.String"/>
+            <attribute name="specialty" type="java.lang.String"/>
+            <attribute name="significant_facility" type="java.lang.String"/>
+            <attribute name="main_condition" type="java.lang.String"/>
+            <attribute name="other_condition_1" type="java.lang.String"/>
+            <attribute name="other_condition_2" type="java.lang.String"/>
+            <attribute name="other_condition_3" type="java.lang.String"/>
+            <attribute name="other_condition_4" type="java.lang.String"/>
+            <attribute name="other_condition_5" type="java.lang.String"/>
+            <attribute name="main_operation_a" type="java.lang.String"/>
+            <attribute name="main_operation_b" type="java.lang.String"/>
+            <attribute name="other_operation_1_a" type="java.lang.String"/>
+            <attribute name="other_operation_1_b" type="java.lang.String"/>
+            <attribute name="other_operation_2_a" type="java.lang.String"/>
+            <attribute name="other_operation_2_b" type="java.lang.String"/>
+            <attribute name="other_operation_3_a" type="java.lang.String"/>
+            <attribute name="other_operation_3_b" type="java.lang.String"/>
+            <attribute name="date_of_main_operation_str" type="java.lang.String"/>
+            <attribute name="date_of_main_operation" type="java.lang.String"/>
+            <attribute name="date_of_other_operation_1_str" type="java.lang.String"/>
+            <attribute name="date_of_other_operation_1" type="java.lang.String"/>
+            <attribute name="date_of_other_operation_2_str" type="java.lang.String"/>
+            <attribute name="date_of_other_operation_2" type="java.lang.String"/>
+            <attribute name="date_of_other_operation_3_str" type="java.lang.String"/>
+            <attribute name="date_of_other_operation_3" type="java.lang.String"/>
+            <attribute name="inpatient_daycase_identifier" type="java.lang.String"/>
+            <attribute name="length_of_stay" type="java.lang.String"/>
+            <attribute name="cis_marker" type="java.lang.String"/>
+            <attribute name="sex" type="java.lang.String"/>
+            <attribute name="age_in_years" type="java.lang.String"/>
+            <attribute name="age_in_months" type="java.lang.String"/>
+            <attribute name="location" type="java.lang.String"/>
+            <attribute name="council_area" type="java.lang.String"/>
+            <attribute name="chp" type="java.lang.String"/>
+            <attribute name="hbres_keydate" type="java.lang.String"/>
+            <attribute name="hbres_currentdate" type="java.lang.String"/>
+            <attribute name="hbtreat" type="java.lang.String"/>
+            <attribute name="hbtreat_currentdate" type="java.lang.String"/>
+            <attribute name="ethnic_group" type="java.lang.String"/>
+            <attribute name="admission_transfer_from" type="java.lang.String"/>
+            <attribute name="discharge_transfer_to" type="java.lang.String"/>
+            <attribute name="admission_transfer_from_loc" type="java.lang.String"/>
+            <attribute name="discharge_transfer_to_location" type="java.lang.String"/>
+            <attribute name="old_specialty" type="java.lang.String"/>
+            <attribute name="old_smr1_tadm_code" type="java.lang.String"/>
+            <attribute name="consultant_hcp_responsible" type="java.lang.String"/>
+            <attribute name="old_admitted_from" type="java.lang.String"/>
+            <attribute name="old_disc_code" type="java.lang.String"/>
+            <attribute name="old_tof" type="java.lang.String"/>
+            <attribute name="postcode" type="java.lang.String"/>
+            <attribute name="link_no" type="java.lang.String"/>
+            <attribute name="admission" type="java.lang.String"/>
+            <attribute name="discharge" type="java.lang.String"/>
+            <attribute name="date_of_birth_str" type="java.lang.String"/>
+            <attribute name="date_of_birth" type="java.lang.String"/>
+        </relation>
+
+
+        <relation name="smr06">
+            <attribute name="row_id" type="java.lang.Integer"/>
+            <attribute name="study_id" type="java.math.BigInteger"/>
+            <attribute name="date_of_death_str" type="java.lang.String"/>
+            <attribute name="date_of_death" type="java.lang.String"/>
+            <attribute name="cause_1" type="java.lang.String"/>
+            <attribute name="cause_2" type="java.lang.String"/>
+            <attribute name="cause_3" type="java.lang.String"/>
+            <attribute name="cause_4" type="java.lang.String"/>
+            <attribute name="death_certificate_initiated" type="java.lang.String"/>
+            <attribute name="death_certificate_only" type="java.lang.String"/>
+            <attribute name="date_of_reg_str" type="java.lang.String"/>
+            <attribute name="date_of_reg" type="java.lang.String"/>
+            <attribute name="incidence_date_str" type="java.lang.String"/>
+            <attribute name="incidence_date" type="java.lang.String"/>
+            <attribute name="side" type="java.lang.String"/>
+            <attribute name="icd10s_cancer_site" type="java.lang.String"/>
+            <attribute name="icdo2_icdo2" type="java.lang.String"/>
+            <attribute name="type_icdo" type="java.lang.String"/>
+            <attribute name="type_icdo2" type="java.lang.String"/>
+            <attribute name="type_icdo3" type="java.lang.String"/>
+            <attribute name="grade_classification" type="java.lang.String"/>
+            <attribute name="grade_cell_type" type="java.lang.String"/>
+            <attribute name="mvb_diag" type="java.lang.String"/>
+            <attribute name="hist_ver" type="java.lang.String"/>
+            <attribute name="method_1st_detection" type="java.lang.String"/>
+            <attribute name="stage_clinical_t" type="java.lang.String"/>
+            <attribute name="stage_clinical_n" type="java.lang.String"/>
+            <attribute name="stage_clinical_m" type="java.lang.String"/>
+            <attribute name="stage_pathologic_t" type="java.lang.String"/>
+            <attribute name="stage_pathologic_n" type="java.lang.String"/>
+            <attribute name="stage_pathologic_m" type="java.lang.String"/>
+            <attribute name="clinical_extent_of_disease" type="java.lang.String"/>
+            <attribute name="stage_colorectal" type="java.lang.String"/>
+            <attribute name="stage_figo_after_surgery" type="java.lang.String"/>
+            <attribute name="stage_figo_before_surgery" type="java.lang.String"/>
+            <attribute name="tumour_size" type="java.lang.String"/>
+            <attribute name="nodes_examined" type="java.lang.String"/>
+            <attribute name="no_of_nodes_examined" type="java.lang.String"/>
+            <attribute name="positive_nodes" type="java.lang.String"/>
+            <attribute name="no_positive_nodes" type="java.lang.String"/>
+            <attribute name="surgery" type="java.lang.String"/>
+            <attribute name="date_1st_surgery_str" type="java.lang.String"/>
+            <attribute name="date_1st_surgery" type="java.lang.String"/>
+            <attribute name="ref_to_rad" type="java.lang.String"/>
+            <attribute name="treated_with_rad" type="java.lang.String"/>
+            <attribute name="rad_to_primary" type="java.lang.String"/>
+            <attribute name="rad_to_mets" type="java.lang.String"/>
+            <attribute name="rad_other" type="java.lang.String"/>
+            <attribute name="date_1st_rad_str" type="java.lang.String"/>
+            <attribute name="date_1st_rad" type="java.lang.String"/>
+            <attribute name="chemo" type="java.lang.String"/>
+            <attribute name="date_1st_chemo_str" type="java.lang.String"/>
+            <attribute name="date_1st_chemo" type="java.lang.String"/>
+            <attribute name="horm_therapy" type="java.lang.String"/>
+            <attribute name="date_1st_horm_str" type="java.lang.String"/>
+            <attribute name="date_1st_horm" type="java.lang.String"/>
+            <attribute name="other_therapy" type="java.lang.String"/>
+            <attribute name="type_other_therapy" type="java.lang.String"/>
+            <attribute name="date_1st_other_therapy_str" type="java.lang.String"/>
+            <attribute name="date_1st_other_therapy" type="java.lang.String"/>
+            <attribute name="vital_status" type="java.lang.String"/>
+            <attribute name="melanoma_skin_breslow_size" type="java.lang.String"/>
+            <attribute name="melanoma_skin_clarks_level" type="java.lang.String"/>
+            <attribute name="microinvasive" type="java.lang.String"/>
+            <attribute name="herceptin_receptor_status" type="java.lang.String"/>
+            <attribute name="progesterone_receptor_status" type="java.lang.String"/>
+            <attribute name="oestrogen_receptor_status" type="java.lang.String"/>
+            <attribute name="gleason_major" type="java.lang.String"/>
+        </relation>
+    </relations>
+
+    <dependencies>
+
+        <dependency type="TGD">
+            <body>
+                <atom name="birth">
+                    <variable name="row_id1"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="study_id_child"/>
+                    <variable name="sex"/>
+                    <variable name="total_births_live_and_still"/>
+                    <variable name="live_males"/>
+                    <variable name="live_females"/>
+                    <variable name="stillborn_males"/>
+                    <variable name="stillborn_sex_not_known"/>
+                    <variable name="liveborn_sex_not_known"/>
+                    <variable name="council_area"/>
+                    <variable name="institution"/>
+                    <variable name="mother_country_of_residence"/>
+                    <variable name="mother_country_of_birth"/>
+                    <variable name="occupation"/>
+                    <variable name="employment_status"/>
+                    <variable name="socio_economic_group"/>
+                    <variable name="father_country_of_birth"/>
+                    <variable name="health_board_area"/>
+                    <variable name="mother_occupation"/>
+                    <variable name="mother_occupation_code"/>
+                    <variable name="mother_social_class"/>
+                    <variable name="father_occupation"/>
+                    <variable name="father_occupation_code"/>
+                    <variable name="father_employment_status"/>
+                    <variable name="father_social_class"/>
+                    <variable name="multiple_births_linked_records"/>
+                    <variable name="postcode"/>
+                    <variable name="date_of_birth_str"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="time_of_birth"/>
+                    <variable name="year_of_registration"/>
+                    <variable name="registration_district"/>
+                    <variable name="entry_number"/>
+                </atom>
+
+                <atom name="patient">
+                    <variable name="row_id2"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="nhs_number"/>
+                    <variable name="ew_number"/>
+                    <variable name="ni_number"/>
+                    <variable name="forename"/>
+                    <variable name="middle_name"/>
+                    <variable name="surname"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="country_of_birth"/>
+                    <variable name="date_of_death"/>
+                    <variable name="birth_place"/>
+                    <variable name="mothers_birth_name"/>
+                    <variable name="postcode"/>
+                    <variable name="sex"/>
+                    <variable name="uprn"/>
+                    <variable name="postcode_source"/>
+                </atom>
+
+            </body>
+
+            <head>
+                <atom name="mothers_social_data">
+                    <variable name="row_id2"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="country_of_birth"/>
+                    <variable name="birth_place"/>
+                    <variable name="mother_country_of_residence"/>
+                    <variable name="mother_occupation"/>
+                    <variable name="mother_social_class"/>
+                </atom>
+            </head>
+        </dependency>
+
+        <dependency type="TGD">
+            <body>
+                <atom name="death">
+                    <variable name="death_row_id"/>
+                    <variable name="study_id"/>
+                    <variable name="date_of_death_str"/>
+                    <variable name="date_of_death"/>
+                    <variable name="primary_cause_of_death"/>
+                    <variable name="secondary_cause_of_death_0"/>
+                    <variable name="secondary_cause_of_death_1"/>
+                    <variable name="secondary_cause_of_death_2"/>
+                    <variable name="secondary_cause_of_death_3"/>
+                    <variable name="secondary_cause_of_death_4"/>
+                    <variable name="secondary_cause_of_death_5"/>
+                    <variable name="secondary_cause_of_death_6"/>
+                    <variable name="secondary_cause_of_death_7"/>
+                    <variable name="secondary_cause_of_death_8"/>
+                    <variable name="secondary_cause_of_death_9"/>
+                    <variable name="age"/>
+                    <variable name="sex"/>
+                    <variable name="date_of_registration_str"/>
+                    <variable name="date_of_registration"/>
+                    <variable name="institution"/>
+                    <variable name="post_mortem_indicator"/>
+                    <variable name="country_of_residence"/>
+                    <variable name="country_of_birth"/>
+                    <variable name="occupation"/>
+                    <variable name="socio_economic_group"/>
+                    <variable name="employment_status"/>
+                    <variable name="council_area"/>
+                    <variable name="place_of_occurrence"/>
+                    <variable name="found_dead_indicator"/>
+                    <variable name="time_of_death"/>
+                    <variable name="hbres_currentdate"/>
+                    <variable name="hbres_keydate"/>
+                    <variable name="procurator_fiscal_status"/>
+                    <variable name="procurator_fiscal_code"/>
+                    <variable name="ethnicity_indicator"/>
+                    <variable name="ethnicity_code"/>
+                    <variable name="deceased_occupation_code"/>
+                    <variable name="deceased_employment_status"/>
+                    <variable name="age_less_than_2_yrs"/>
+                    <variable name="age_units"/>
+                    <variable name="orig_cause_of_death_text_1a"/>
+                    <variable name="orig_cause_of_death_text_1b"/>
+                    <variable name="orig_cause_of_death_text_1c"/>
+                    <variable name="orig_cause_of_death_text_1d"/>
+                    <variable name="postcode"/>
+                    <variable name="infant_death_birth_reg_year"/>
+                    <variable name="infant_death_birth_reg_dist"/>
+                    <variable name="infant_death_birth_entry_no"/>
+                    <variable name="year_of_registration"/>
+                    <variable name="registration_district"/>
+                    <variable name="entry_number"/>
+                </atom>
+            </body>
+
+            <head>
+                <atom name="death_causes_data">
+                    <variable name="death_row_id"/>
+                    <variable name="age"/>
+                    <variable name="sex"/>
+                    <variable name="country_of_birth"/>
+                    <variable name="country_of_residence"/>
+                    <variable name="occupation"/>
+                    <variable name="socio_economic_group"/>
+                    <variable name="ethnicity_code"/>
+                    <variable name="date_of_death"/>
+                    <variable name="primary_cause_of_death"/>
+                    <variable name="secondary_cause_of_death_0"/>
+                    <variable name="secondary_cause_of_death_1"/>
+                    <variable name="secondary_cause_of_death_2"/>
+                    <variable name="secondary_cause_of_death_3"/>
+                    <variable name="secondary_cause_of_death_4"/>
+                    <variable name="secondary_cause_of_death_5"/>
+                    <variable name="secondary_cause_of_death_6"/>
+                    <variable name="secondary_cause_of_death_7"/>
+                    <variable name="secondary_cause_of_death_8"/>
+                    <variable name="secondary_cause_of_death_9"/>
+                </atom>
+            </head>
+        </dependency>
+
+
+        <dependency type="TGD">
+            <body>
+                <atom name="death">
+                    <variable name="death_row_id"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="date_of_death_str"/>
+                    <variable name="date_of_death"/>
+                    <variable name="primary_cause_of_death"/>
+                    <variable name="secondary_cause_of_death_0"/>
+                    <variable name="secondary_cause_of_death_1"/>
+                    <variable name="secondary_cause_of_death_2"/>
+                    <variable name="secondary_cause_of_death_3"/>
+                    <variable name="secondary_cause_of_death_4"/>
+                    <variable name="secondary_cause_of_death_5"/>
+                    <variable name="secondary_cause_of_death_6"/>
+                    <variable name="secondary_cause_of_death_7"/>
+                    <variable name="secondary_cause_of_death_8"/>
+                    <variable name="secondary_cause_of_death_9"/>
+                    <variable name="age"/>
+                    <variable name="sex"/>
+                    <variable name="date_of_registration_str"/>
+                    <variable name="date_of_registration"/>
+                    <variable name="institution"/>
+                    <variable name="post_mortem_indicator"/>
+                    <variable name="country_of_residence"/>
+                    <variable name="country_of_birth"/>
+                    <variable name="occupation"/>
+                    <variable name="socio_economic_group"/>
+                    <variable name="employment_status"/>
+                    <variable name="council_area"/>
+                    <variable name="place_of_occurrence"/>
+                    <variable name="found_dead_indicator"/>
+                    <variable name="time_of_death"/>
+                    <variable name="hbres_currentdate"/>
+                    <variable name="hbres_keydate"/>
+                    <variable name="procurator_fiscal_status"/>
+                    <variable name="procurator_fiscal_code"/>
+                    <variable name="ethnicity_indicator"/>
+                    <variable name="ethnicity_code"/>
+                    <variable name="deceased_occupation_code"/>
+                    <variable name="deceased_employment_status"/>
+                    <variable name="age_less_than_2_yrs"/>
+                    <variable name="age_units"/>
+                    <variable name="orig_cause_of_death_text_1a"/>
+                    <variable name="orig_cause_of_death_text_1b"/>
+                    <variable name="orig_cause_of_death_text_1c"/>
+                    <variable name="orig_cause_of_death_text_1d"/>
+                    <variable name="postcode"/>
+                    <variable name="infant_death_birth_reg_year"/>
+                    <variable name="infant_death_birth_reg_dist"/>
+                    <variable name="infant_death_birth_entry_no"/>
+                    <variable name="year_of_registration"/>
+                    <variable name="registration_district"/>
+                    <variable name="entry_number"/>
+                </atom>
+
+                <atom name="pis_e_prescribing">
+                    <variable name="drug_row_id"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="prescribed_date"/>
+                    <variable name="dispensed_date"/>
+                    <variable name="paid_date"/>
+                    <variable name="prescribable_item_approved_name"/>
+                    <variable name="prescribable_item_name"/>
+                    <variable name="prescribable_item_strength_uom"/>
+                    <variable name="prescribable_item_drug_formulation"/>
+                    <variable name="prescribable_item_type"/>
+                    <variable name="prescribable_item_description"/>
+                    <variable name="prescribable_item_bnf_item_code"/>
+                    <variable name="paid_quantity"/>
+                    <variable name="number_of_paid_items"/>
+                    <variable name="daily_defined_doses"/>
+                    <variable name="native_dose_instruction"/>
+                    <variable name="amount_min"/>
+                    <variable name="amount_max"/>
+                    <variable name="amount_unit"/>
+                    <variable name="timing_freq_min"/>
+                    <variable name="timing_freq_max"/>
+                    <variable name="timing_freq_unit"/>
+                    <variable name="timing_interval_min"/>
+                    <variable name="timing_interval_max"/>
+                    <variable name="timing_interval_unit"/>
+                    <variable name="as_required"/>
+                    <variable name="as_directed"/>
+                </atom>
+            </body>
+
+            <head>
+                <atom name="link_death_drugs_data">
+                    <variable name="row_id"/>
+                    <variable name="drug_row_id"/>
+                    <variable name="death_row_id"/>
+                </atom>
+            </head>
+        </dependency>
+
+
+        <dependency type="TGD">
+            <body>
+                <atom name="pis_e_prescribing">
+                    <variable name="drug_row_id"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="prescribed_date"/>
+                    <variable name="dispensed_date"/>
+                    <variable name="paid_date"/>
+                    <variable name="prescribable_item_approved_name"/>
+                    <variable name="prescribable_item_name"/>
+                    <variable name="prescribable_item_strength_uom"/>
+                    <variable name="prescribable_item_drug_formulation"/>
+                    <variable name="prescribable_item_type"/>
+                    <variable name="prescribable_item_description"/>
+                    <variable name="prescribable_item_bnf_item_code"/>
+                    <variable name="paid_quantity"/>
+                    <variable name="number_of_paid_items"/>
+                    <variable name="daily_defined_doses"/>
+                    <variable name="native_dose_instruction"/>
+                    <variable name="amount_min"/>
+                    <variable name="amount_max"/>
+                    <variable name="amount_unit"/>
+                    <variable name="timing_freq_min"/>
+                    <variable name="timing_freq_max"/>
+                    <variable name="timing_freq_unit"/>
+                    <variable name="timing_interval_min"/>
+                    <variable name="timing_interval_max"/>
+                    <variable name="timing_interval_unit"/>
+                    <variable name="as_required"/>
+                    <variable name="as_directed"/>
+                </atom>
+            </body>
+
+            <head>
+                <atom name="prescribed_drugs_evolution_data">
+                    <variable name="drug_row_id"/>
+                    <variable name="prescribable_item_name"/>
+                    <variable name="prescribable_item_strength_uom"/>
+                    <variable name="prescribable_item_drug_formulation"/>
+                    <variable name="prescribable_item_type"/>
+                    <variable name="prescribable_item_bnf_item_code"/>
+                    <variable name="prescribed_date"/>
+                    <variable name="dispensed_date"/>
+                    <variable name="daily_defined_doses"/>
+                </atom>
+            </head>
+        </dependency>
+
+        <dependency type="TGD">
+            <body>
+                <atom name="birth">
+                    <variable name="row_id"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="study_id_child"/>
+                    <variable name="sex"/>
+                    <variable name="total_births_live_and_still"/>
+                    <variable name="live_males"/>
+                    <variable name="live_females"/>
+                    <variable name="stillborn_males"/>
+                    <variable name="stillborn_sex_not_known"/>
+                    <variable name="liveborn_sex_not_known"/>
+                    <variable name="council_area"/>
+                    <variable name="institution"/>
+                    <variable name="mother_country_of_residence"/>
+                    <variable name="mother_country_of_birth"/>
+                    <variable name="occupation"/>
+                    <variable name="employment_status"/>
+                    <variable name="socio_economic_group"/>
+                    <variable name="father_country_of_birth"/>
+                    <variable name="health_board_area"/>
+                    <variable name="mother_occupation"/>
+                    <variable name="mother_occupation_code"/>
+                    <variable name="mother_social_class"/>
+                    <variable name="father_occupation"/>
+                    <variable name="father_occupation_code"/>
+                    <variable name="father_employment_status"/>
+                    <variable name="father_social_class"/>
+                    <variable name="multiple_births_linked_records"/>
+                    <variable name="postcode"/>
+                    <variable name="date_of_birth_str"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="time_of_birth"/>
+                    <variable name="year_of_registration"/>
+                    <variable name="registration_district"/>
+                    <variable name="entry_number"/>
+                </atom>
+
+            </body>
+
+            <head>
+                <atom name="fathers_social_data">
+                    <variable name="row_id2"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="father_country_of_birth"/>
+                    <variable name="father_occupation"/>
+                    <variable name="father_employment_status"/>
+                    <variable name="father_social_class"/>
+                </atom>
+            </head>
+        </dependency>
+
+        <dependency type="TGD">
+            <body>
+                <atom name="birth">
+                    <variable name="row_id1"/>
+                    <variable name="study_id_mother"/>
+                    <variable name="study_id_child"/>
+                    <variable name="sex"/>
+                    <variable name="total_births_live_and_still"/>
+                    <variable name="live_males"/>
+                    <variable name="live_females"/>
+                    <variable name="stillborn_males"/>
+                    <variable name="stillborn_sex_not_known"/>
+                    <variable name="liveborn_sex_not_known"/>
+                    <variable name="council_area"/>
+                    <variable name="institution"/>
+                    <variable name="mother_country_of_residence"/>
+                    <variable name="mother_country_of_birth"/>
+                    <variable name="occupation"/>
+                    <variable name="employment_status"/>
+                    <variable name="socio_economic_group"/>
+                    <variable name="father_country_of_birth"/>
+                    <variable name="health_board_area"/>
+                    <variable name="mother_occupation"/>
+                    <variable name="mother_occupation_code"/>
+                    <variable name="mother_social_class"/>
+                    <variable name="father_occupation"/>
+                    <variable name="father_occupation_code"/>
+                    <variable name="father_employment_status"/>
+                    <variable name="father_social_class"/>
+                    <variable name="multiple_births_linked_records"/>
+                    <variable name="postcode"/>
+                    <variable name="date_of_birth_str"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="time_of_birth"/>
+                    <variable name="year_of_registration"/>
+                    <variable name="registration_district"/>
+                    <variable name="entry_number"/>
+                </atom>
+
+                <atom name="patient">
+                    <variable name="row_id2"/>
+                    <variable name="study_id_child"/>
+                    <variable name="nhs_number"/>
+                    <variable name="ew_number"/>
+                    <variable name="ni_number"/>
+                    <variable name="forename"/>
+                    <variable name="middle_name"/>
+                    <variable name="surname"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="country_of_birth"/>
+                    <variable name="date_of_death"/>
+                    <variable name="birth_place"/>
+                    <variable name="mothers_birth_name"/>
+                    <variable name="postcode"/>
+                    <variable name="sex"/>
+                    <variable name="uprn"/>
+                    <variable name="postcode_source"/>
+                </atom>
+
+            </body>
+
+            <head>
+                <atom name="child_longevity_data">
+                    <variable name="row_id"/>
+                    <variable name="sex"/>
+                    <variable name="institution"/>
+                    <variable name="date_of_birth"/>
+                    <variable name="date_of_death"/>
+                </atom>
+            </head>
+        </dependency>
+
+
+
+    </dependencies>
+
+</schema>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="sourceSc_Trg">
+   <xs:complexType>
+      <xs:sequence>
+         <xs:element name="test_cp_0_nl0_ce0copy0_0" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element name="nut_cp_0_nl0_ae0ke0" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="art_cp_0_nl0_ae1" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="slope_cp_0_nl0_ae2" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="measure_cp_0_nl0_ae3" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="touch_cp_0_nl0_ae4" minOccurs="0" maxOccurs="1" type="xs:string"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="warn_me_0_nl0_ce0" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element name="branch_me_0_nl0_ae0" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="demand_me_0_nl0_ae1" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="great_me_0_nl0_ae2" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="affect_me_0_nl1_ae0" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="different_me_0_nl1_ae1" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="society_me_0_nl1_ae2" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="cheese_me_0_nl0_ae0comp1_joinattr_0" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                  <xs:element name="society_me_0_nl0_ae1comp1_joinattr_1" minOccurs="0" maxOccurs="1" type="xs:string"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+<xs:key name="test_cp_0_nl0_ce0copy0_0nut_cp_0_nl0_ae0ke0"><xs:selector xpath="./test_cp_0_nl0_ce0copy0_0"/><xs:field xpath="nut_cp_0_nl0_ae0ke0"/></xs:key>
+<xs:key name="warn_me_0_nl0_ce0cheese_me_0_nl0_ae0comp1_joinattr_0society_me_0_nl0_ae1comp1_joinattr_1"><xs:selector xpath="./warn_me_0_nl0_ce0"/><xs:field xpath="cheese_me_0_nl0_ae0comp1_joinattr_0"/><xs:field xpath="society_me_0_nl0_ae1comp1_joinattr_1"/></xs:key>
+</xs:element>
+</xs:schema>

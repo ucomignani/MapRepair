@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<job:Job xmlns:job="http://com.ibm.clio.model/job/1.0">
+<mapping>sourceSch.xsml#/</mapping>
+</job:Job>

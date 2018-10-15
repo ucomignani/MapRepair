@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema>
+    <relations>
+        <relation name="small_cp_8_nl0_ce0copy8_8">
+            <attribute name="broken_cp_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="brain_cp_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="branch_cp_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="swim_cp_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="place_cp_8_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="point_adl_7_nl0_ce0">
+            <attribute name="learn_adl_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="provide_adl_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="secret_adl_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="poor_adl_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="see_adl_7_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="discover_cp_5_nl0_ce0">
+            <attribute name="different_cp_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="reveal_cp_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="oven_cp_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="narrow_cp_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="rest_cp_5_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="test_cp_0_nl0_ce0copy0_0">
+            <attribute name="nut_cp_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="art_cp_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="slope_cp_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="measure_cp_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="touch_cp_0_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="seem_adl_2_nl0_ce0">
+            <attribute name="record_adl_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="branch_adl_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="safe_adl_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="office_adl_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="talk_adl_2_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="shut_ad_7_nl0_ce0">
+            <attribute name="disappear_ad_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="awake_ad_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="church_ad_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="hammer_ad_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="disgust_ad_7_nl0_ae4" type="java.lang.String"/>
+            <attribute name="experience_ad_7_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="enable_dl_1_nl0_ce0">
+            <attribute name="bitter_dl_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="like_dl_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="trick_dl_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="green_dl_1_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="mountain_adl_9_nl0_ce0">
+            <attribute name="powder_adl_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="dependent_adl_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="desire_adl_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="sleep_adl_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="measure_adl_9_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="train_adl_1_nl0_ce0">
+            <attribute name="church_adl_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="digestion_adl_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="control_adl_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="matter_adl_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="suggest_adl_1_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="approval_cp_9_nl0_ce0copy9_9">
+            <attribute name="blow_cp_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="division_cp_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="ready_cp_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="property_cp_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="gun_cp_9_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="small_cp_8_nl0_ce0">
+            <attribute name="broken_cp_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="brain_cp_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="branch_cp_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="swim_cp_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="place_cp_8_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="ink_dl_8_nl0_ce0">
+            <attribute name="conscious_dl_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="basin_dl_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="come_dl_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="long_dl_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="drink_dl_8_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="support_ad_5_nl0_ce0">
+            <attribute name="hollow_ad_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="art_ad_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="fly_ad_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="late_ad_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="important_ad_5_nl0_ae4" type="java.lang.String"/>
+            <attribute name="silver_ad_5_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="store_adl_5_nl0_ce0">
+            <attribute name="arrange_adl_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="first_adl_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="play_adl_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="stamp_adl_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="jewel_adl_5_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="handle_me_1_nl0_ce0">
+            <attribute name="library_me_1_nl0_ae0" type="java.lang.String"/>
+            <attribute name="die_me_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="worry_me_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="parallel_me_1_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="collection_me_1_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="start_me_4_nl0_ce1">
+            <attribute name="fruit_me_4_nl1_ae0" type="java.lang.String"/>
+            <attribute name="science_me_4_nl1_ae1" type="java.lang.String"/>
+            <attribute name="desire_me_4_nl1_ae2" type="java.lang.String"/>
+            <attribute name="political_me_4_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="language_me_4_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="soap_dl_2_nl0_ce0">
+            <attribute name="ring_dl_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="stay_dl_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="shall_dl_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="committee_dl_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="needle_dl_2_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="degree_dl_3_nl0_ce0">
+            <attribute name="prove_dl_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="base_dl_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="speak_dl_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="comb_dl_3_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="hammer_dl_6_nl0_ce0">
+            <attribute name="cut_dl_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="ring_dl_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="voice_dl_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="room_dl_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="impulse_dl_6_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="aim_dl_2_nl0_ce0">
+            <attribute name="ring_dl_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="stay_dl_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="shall_dl_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="committee_dl_2_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="turn_ad_3_nl0_ce0">
+            <attribute name="chin_ad_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="argue_ad_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="late_ad_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="summer_ad_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="will_ad_3_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="inform_ad_5_nl0_ce0">
+            <attribute name="hollow_ad_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="art_ad_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="fly_ad_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="late_ad_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="important_ad_5_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="keep_dl_9_nl0_ce0">
+            <attribute name="rhythm_dl_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="cook_dl_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="thin_dl_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="reply_dl_9_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="delicate_ad_0_nl0_ce0">
+            <attribute name="sleep_ad_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="call_ad_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="road_ad_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="rhythm_ad_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="stomach_ad_0_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="blue_cp_4_nl0_ce0">
+            <attribute name="describe_cp_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="report_cp_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="night_cp_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="find_cp_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="attention_cp_4_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="seem_ad_7_nl0_ce0">
+            <attribute name="disappear_ad_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="awake_ad_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="church_ad_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="hammer_ad_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="disgust_ad_7_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="connection_ad_6_nl0_ce0">
+            <attribute name="orange_ad_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="fertile_ad_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="respect_ad_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="interest_ad_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="condition_ad_6_nl0_ae4" type="java.lang.String"/>
+            <attribute name="heart_ad_6_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="order_cp_7_nl0_ce0copy7_7">
+            <attribute name="twist_cp_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="account_cp_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="future_cp_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="chin_cp_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="mixed_cp_7_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="paste_dl_4_nl0_ce0">
+            <attribute name="government_dl_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="event_dl_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="sort_dl_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="mean_dl_4_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="thumb_adl_3_nl0_ce0">
+            <attribute name="yellow_adl_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="receipt_adl_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="fish_adl_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="wish_adl_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="go_adl_3_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="blue_cp_4_nl0_ce0copy4_4">
+            <attribute name="describe_cp_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="report_cp_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="night_cp_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="find_cp_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="attention_cp_4_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="company_adl_1_nl0_ce0">
+            <attribute name="church_adl_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="digestion_adl_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="control_adl_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="matter_adl_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="rough_adl_1_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="exist_ad_8_nl0_ce0">
+            <attribute name="cover_ad_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="eat_ad_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="prefer_ad_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="harbor_ad_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="foot_ad_8_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="sign_dl_1_nl0_ce0">
+            <attribute name="bitter_dl_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="like_dl_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="trick_dl_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="green_dl_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="jump_dl_1_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="produce_dl_7_nl0_ce0">
+            <attribute name="full_dl_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="fork_dl_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="stop_dl_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="line_dl_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="sail_dl_7_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="key_adl_6_nl0_ce0">
+            <attribute name="cry_adl_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="poor_adl_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="long_adl_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="bright_adl_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="request_adl_6_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="count_me_8_nl0_ce1">
+            <attribute name="involve_me_8_nl1_ae0" type="java.lang.String"/>
+            <attribute name="explain_me_8_nl1_ae1" type="java.lang.String"/>
+            <attribute name="theory_me_8_nl1_ae2" type="java.lang.String"/>
+            <attribute name="root_me_8_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="pain_me_8_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="death_me_6_nl0_ce0">
+            <attribute name="shake_me_6_nl0_ae0" type="java.lang.String"/>
+            <attribute name="hollow_me_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="hollow_me_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="count_me_6_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="amount_me_6_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="board_cp_2_nl0_ce0copy2_2">
+            <attribute name="affect_cp_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="different_cp_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="society_cp_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="warn_cp_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="tail_cp_2_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="yellow_adl_0_nl0_ce0">
+            <attribute name="learn_adl_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="parallel_adl_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="grain_adl_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="lift_adl_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="blade_adl_0_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="flower_me_5_nl0_ce0">
+            <attribute name="involve_me_5_nl0_ae0" type="java.lang.String"/>
+            <attribute name="mention_me_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="pencil_me_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="sleep_me_5_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="clean_me_5_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="exchange_dl_0_nl0_ce0">
+            <attribute name="discover_dl_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="settle_dl_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="act_dl_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="winter_dl_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="net_dl_0_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="worry_me_4_nl0_ce0">
+            <attribute name="chalk_me_4_nl0_ae0" type="java.lang.String"/>
+            <attribute name="regular_me_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="degree_me_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="political_me_4_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="language_me_4_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="engine_adl_9_nl0_ce0">
+            <attribute name="powder_adl_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="dependent_adl_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="desire_adl_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="sleep_adl_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="laugh_adl_9_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="grip_me_5_nl0_ce1">
+            <attribute name="complex_me_5_nl1_ae0" type="java.lang.String"/>
+            <attribute name="claim_me_5_nl1_ae1" type="java.lang.String"/>
+            <attribute name="state_me_5_nl1_ae2" type="java.lang.String"/>
+            <attribute name="sleep_me_5_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="clean_me_5_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="brown_me_1_nl0_ce1">
+            <attribute name="hit_me_1_nl1_ae0" type="java.lang.String"/>
+            <attribute name="paint_me_1_nl1_ae1" type="java.lang.String"/>
+            <attribute name="decision_me_1_nl1_ae2" type="java.lang.String"/>
+            <attribute name="parallel_me_1_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="collection_me_1_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="return_ad_1_nl0_ce0">
+            <attribute name="match_ad_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="wash_ad_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="gain_ad_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="oven_ad_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="give_ad_1_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="bath_me_7_nl0_ce0">
+            <attribute name="butter_me_7_nl0_ae0" type="java.lang.String"/>
+            <attribute name="copy_me_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="thick_me_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="probable_me_7_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="low_me_7_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="private_ad_4_nl0_ce0">
+            <attribute name="appear_ad_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="tail_ad_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="clock_ad_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="express_ad_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="wall_ad_4_nl0_ae4" type="java.lang.String"/>
+            <attribute name="common_ad_4_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="win_ad_2_nl0_ce0">
+            <attribute name="increase_ad_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="animal_ad_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="hate_ad_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="ready_ad_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="round_ad_2_nl0_ae4" type="java.lang.String"/>
+            <attribute name="act_ad_2_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="test_cp_0_nl0_ce0">
+            <attribute name="nut_cp_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="art_cp_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="slope_cp_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="measure_cp_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="touch_cp_0_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="straight_me_8_nl0_ce0">
+            <attribute name="complain_me_8_nl0_ae0" type="java.lang.String"/>
+            <attribute name="question_me_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="walk_me_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="root_me_8_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="pain_me_8_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="place_cp_6_nl0_ce0">
+            <attribute name="expansion_cp_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="pipe_cp_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="indicate_cp_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="thank_cp_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="stick_cp_6_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="prose_me_9_nl0_ce1">
+            <attribute name="agencies_me_9_nl1_ae0" type="java.lang.String"/>
+            <attribute name="flat_me_9_nl1_ae1" type="java.lang.String"/>
+            <attribute name="train_me_9_nl1_ae2" type="java.lang.String"/>
+            <attribute name="poor_me_9_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="goat_me_9_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="belong_ad_2_nl0_ce0">
+            <attribute name="increase_ad_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="animal_ad_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="hate_ad_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="ready_ad_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="round_ad_2_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="forgive_dl_4_nl0_ce0">
+            <attribute name="government_dl_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="event_dl_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="sort_dl_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="mean_dl_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="desire_dl_4_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="insurance_dl_9_nl0_ce0">
+            <attribute name="rhythm_dl_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="cook_dl_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="thin_dl_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="reply_dl_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="require_dl_9_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="egg_me_5_nl0_ce0">
+            <attribute name="involve_me_5_nl0_ae0" type="java.lang.String"/>
+            <attribute name="mention_me_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="pencil_me_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="complex_me_5_nl1_ae0" type="java.lang.String"/>
+            <attribute name="claim_me_5_nl1_ae1" type="java.lang.String"/>
+            <attribute name="state_me_5_nl1_ae2" type="java.lang.String"/>
+            <attribute name="sleep_me_5_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="clean_me_5_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="rhythm_adl_6_nl0_ce0">
+            <attribute name="cry_adl_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="poor_adl_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="long_adl_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="bright_adl_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="shade_adl_6_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="close_me_7_nl0_ce1">
+            <attribute name="stiff_me_7_nl1_ae0" type="java.lang.String"/>
+            <attribute name="feeling_me_7_nl1_ae1" type="java.lang.String"/>
+            <attribute name="connect_me_7_nl1_ae2" type="java.lang.String"/>
+            <attribute name="probable_me_7_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="low_me_7_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="opinion_dl_3_nl0_ce0">
+            <attribute name="prove_dl_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="base_dl_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="speak_dl_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="comb_dl_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="paint_dl_3_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="earth_ad_8_nl0_ce0">
+            <attribute name="cover_ad_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="eat_ad_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="prefer_ad_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="harbor_ad_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="foot_ad_8_nl0_ae4" type="java.lang.String"/>
+            <attribute name="year_ad_8_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="get_dl_6_nl0_ce0">
+            <attribute name="cut_dl_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="ring_dl_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="voice_dl_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="room_dl_6_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="last_me_4_nl0_ce0">
+            <attribute name="chalk_me_4_nl0_ae0" type="java.lang.String"/>
+            <attribute name="regular_me_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="degree_me_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="fruit_me_4_nl1_ae0" type="java.lang.String"/>
+            <attribute name="science_me_4_nl1_ae1" type="java.lang.String"/>
+            <attribute name="desire_me_4_nl1_ae2" type="java.lang.String"/>
+            <attribute name="political_me_4_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="language_me_4_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="bent_me_3_nl0_ce1">
+            <attribute name="sweet_me_3_nl1_ae0" type="java.lang.String"/>
+            <attribute name="rod_me_3_nl1_ae1" type="java.lang.String"/>
+            <attribute name="silk_me_3_nl1_ae2" type="java.lang.String"/>
+            <attribute name="mind_me_3_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="door_me_3_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="order_cp_7_nl0_ce0">
+            <attribute name="twist_cp_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="account_cp_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="future_cp_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="chin_cp_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="mixed_cp_7_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="charge_me_3_nl0_ce0">
+            <attribute name="certain_me_3_nl0_ae0" type="java.lang.String"/>
+            <attribute name="sugar_me_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="collection_me_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="mind_me_3_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="door_me_3_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="account_dl_5_nl0_ce0">
+            <attribute name="fiction_dl_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="round_dl_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="soup_dl_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="regret_dl_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="train_dl_5_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="disease_me_7_nl0_ce0">
+            <attribute name="butter_me_7_nl0_ae0" type="java.lang.String"/>
+            <attribute name="copy_me_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="thick_me_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="stiff_me_7_nl1_ae0" type="java.lang.String"/>
+            <attribute name="feeling_me_7_nl1_ae1" type="java.lang.String"/>
+            <attribute name="connect_me_7_nl1_ae2" type="java.lang.String"/>
+            <attribute name="probable_me_7_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="low_me_7_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="hollow_dl_0_nl0_ce0">
+            <attribute name="discover_dl_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="settle_dl_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="act_dl_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="winter_dl_0_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="poison_ad_9_nl0_ce0">
+            <attribute name="opinion_ad_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="complain_ad_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="snake_ad_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="bucket_ad_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="angle_ad_9_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="settle_me_8_nl0_ce0">
+            <attribute name="complain_me_8_nl0_ae0" type="java.lang.String"/>
+            <attribute name="question_me_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="walk_me_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="involve_me_8_nl1_ae0" type="java.lang.String"/>
+            <attribute name="explain_me_8_nl1_ae1" type="java.lang.String"/>
+            <attribute name="theory_me_8_nl1_ae2" type="java.lang.String"/>
+            <attribute name="root_me_8_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="pain_me_8_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="side_adl_5_nl0_ce0">
+            <attribute name="arrange_adl_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="first_adl_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="play_adl_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="stamp_adl_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="appear_adl_5_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="cheese_cp_1_nl0_ce0copy1_1">
+            <attribute name="society_cp_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="compare_cp_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="branch_cp_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="demand_cp_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="great_cp_1_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="place_cp_6_nl0_ce0copy6_6">
+            <attribute name="expansion_cp_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="pipe_cp_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="indicate_cp_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="thank_cp_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="stick_cp_6_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="driving_adl_8_nl0_ce0">
+            <attribute name="error_adl_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="trousers_adl_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="try_adl_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="complex_adl_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="orange_adl_8_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="chalk_me_2_nl0_ce0">
+            <attribute name="slow_me_2_nl0_ae0" type="java.lang.String"/>
+            <attribute name="word_me_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="kind_me_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="ring_me_2_nl1_ae0" type="java.lang.String"/>
+            <attribute name="early_me_2_nl1_ae1" type="java.lang.String"/>
+            <attribute name="violent_me_2_nl1_ae2" type="java.lang.String"/>
+            <attribute name="organization_me_2_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="stick_me_2_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="family_adl_0_nl0_ce0">
+            <attribute name="learn_adl_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="parallel_adl_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="grain_adl_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="lift_adl_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="thin_adl_0_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="board_cp_2_nl0_ce0">
+            <attribute name="affect_cp_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="different_cp_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="society_cp_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="warn_cp_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="tail_cp_2_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="accept_me_6_nl0_ce0">
+            <attribute name="shake_me_6_nl0_ae0" type="java.lang.String"/>
+            <attribute name="hollow_me_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="hollow_me_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="distribution_me_6_nl1_ae0" type="java.lang.String"/>
+            <attribute name="gold_me_6_nl1_ae1" type="java.lang.String"/>
+            <attribute name="pain_me_6_nl1_ae2" type="java.lang.String"/>
+            <attribute name="count_me_6_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="amount_me_6_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="red_cp_3_nl0_ce0">
+            <attribute name="wrong_cp_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="past_cp_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="wheel_cp_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="work_cp_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="letter_cp_3_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="regard_adl_2_nl0_ce0">
+            <attribute name="record_adl_2_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="branch_adl_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="safe_adl_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="office_adl_2_nl0_ae3" type="java.lang.String"/>
+            <attribute name="burn_adl_2_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="red_cp_3_nl0_ce0copy3_3">
+            <attribute name="wrong_cp_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="past_cp_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="wheel_cp_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="work_cp_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="letter_cp_3_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="prove_me_2_nl0_ce1">
+            <attribute name="ring_me_2_nl1_ae0" type="java.lang.String"/>
+            <attribute name="early_me_2_nl1_ae1" type="java.lang.String"/>
+            <attribute name="violent_me_2_nl1_ae2" type="java.lang.String"/>
+            <attribute name="organization_me_2_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="stick_me_2_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="shut_ad_3_nl0_ce0">
+            <attribute name="chin_ad_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="argue_ad_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="late_ad_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="summer_ad_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="will_ad_3_nl0_ae4" type="java.lang.String"/>
+            <attribute name="buy_ad_3_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="chain_ad_4_nl0_ce0">
+            <attribute name="appear_ad_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="tail_ad_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="clock_ad_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="express_ad_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="wall_ad_4_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="crush_me_3_nl0_ce0">
+            <attribute name="certain_me_3_nl0_ae0" type="java.lang.String"/>
+            <attribute name="sugar_me_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="collection_me_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="sweet_me_3_nl1_ae0" type="java.lang.String"/>
+            <attribute name="rod_me_3_nl1_ae1" type="java.lang.String"/>
+            <attribute name="silk_me_3_nl1_ae2" type="java.lang.String"/>
+            <attribute name="mind_me_3_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="door_me_3_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="work_me_0_nl0_ce0">
+            <attribute name="discuss_me_0_nl0_ae0" type="java.lang.String"/>
+            <attribute name="involve_me_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="use_me_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="winter_me_0_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="powder_me_0_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="leather_me_6_nl0_ce1">
+            <attribute name="distribution_me_6_nl1_ae0" type="java.lang.String"/>
+            <attribute name="gold_me_6_nl1_ae1" type="java.lang.String"/>
+            <attribute name="pain_me_6_nl1_ae2" type="java.lang.String"/>
+            <attribute name="count_me_6_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="amount_me_6_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="regular_me_0_nl0_ce0">
+            <attribute name="discuss_me_0_nl0_ae0" type="java.lang.String"/>
+            <attribute name="involve_me_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="use_me_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="dead_me_0_nl1_ae0" type="java.lang.String"/>
+            <attribute name="draw_me_0_nl1_ae1" type="java.lang.String"/>
+            <attribute name="send_me_0_nl1_ae2" type="java.lang.String"/>
+            <attribute name="winter_me_0_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="powder_me_0_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="approval_cp_9_nl0_ce0">
+            <attribute name="blow_cp_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="division_cp_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="ready_cp_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="property_cp_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="gun_cp_9_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="choose_dl_7_nl0_ce0">
+            <attribute name="full_dl_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="fork_dl_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="stop_dl_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="line_dl_7_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="place_adl_4_nl0_ce0">
+            <attribute name="watch_adl_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="form_adl_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="high_adl_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="stamp_adl_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="language_adl_4_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="tight_ad_6_nl0_ce0">
+            <attribute name="orange_ad_6_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="fertile_ad_6_nl0_ae1" type="java.lang.String"/>
+            <attribute name="respect_ad_6_nl0_ae2" type="java.lang.String"/>
+            <attribute name="interest_ad_6_nl0_ae3" type="java.lang.String"/>
+            <attribute name="condition_ad_6_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="beautiful_adl_4_nl0_ce0">
+            <attribute name="watch_adl_4_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="form_adl_4_nl0_ae1" type="java.lang.String"/>
+            <attribute name="high_adl_4_nl0_ae2" type="java.lang.String"/>
+            <attribute name="stamp_adl_4_nl0_ae3" type="java.lang.String"/>
+            <attribute name="check_adl_4_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="beat_dl_5_nl0_ce0">
+            <attribute name="fiction_dl_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="round_dl_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="soup_dl_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="regret_dl_5_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="cheese_cp_1_nl0_ce0">
+            <attribute name="society_cp_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="compare_cp_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="branch_cp_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="demand_cp_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="great_cp_1_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="business_adl_3_nl0_ce0">
+            <attribute name="yellow_adl_3_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="receipt_adl_3_nl0_ae1" type="java.lang.String"/>
+            <attribute name="fish_adl_3_nl0_ae2" type="java.lang.String"/>
+            <attribute name="wish_adl_3_nl0_ae3" type="java.lang.String"/>
+            <attribute name="red_adl_3_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="discover_cp_5_nl0_ce0copy5_5">
+            <attribute name="different_cp_5_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="reveal_cp_5_nl0_ae1" type="java.lang.String"/>
+            <attribute name="oven_cp_5_nl0_ae2" type="java.lang.String"/>
+            <attribute name="narrow_cp_5_nl0_ae3" type="java.lang.String"/>
+            <attribute name="rest_cp_5_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="jump_ad_9_nl0_ce0">
+            <attribute name="opinion_ad_9_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="complain_ad_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="snake_ad_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="bucket_ad_9_nl0_ae3" type="java.lang.String"/>
+            <attribute name="angle_ad_9_nl0_ae4" type="java.lang.String"/>
+            <attribute name="lift_ad_9_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="open_adl_7_nl0_ce0">
+            <attribute name="learn_adl_7_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="provide_adl_7_nl0_ae1" type="java.lang.String"/>
+            <attribute name="secret_adl_7_nl0_ae2" type="java.lang.String"/>
+            <attribute name="poor_adl_7_nl0_ae3" type="java.lang.String"/>
+            <attribute name="silk_adl_7_nl0_ae4" type="java.lang.String"/>
+        </relation>
+        <relation name="pick_me_9_nl0_ce0">
+            <attribute name="head_me_9_nl0_ae0" type="java.lang.String"/>
+            <attribute name="judge_me_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="impulse_me_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="poor_me_9_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="goat_me_9_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="speak_ad_0_nl0_ce0">
+            <attribute name="sleep_ad_0_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="call_ad_0_nl0_ae1" type="java.lang.String"/>
+            <attribute name="road_ad_0_nl0_ae2" type="java.lang.String"/>
+            <attribute name="rhythm_ad_0_nl0_ae3" type="java.lang.String"/>
+            <attribute name="stomach_ad_0_nl0_ae4" type="java.lang.String"/>
+            <attribute name="place_ad_0_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="boot_me_9_nl0_ce0">
+            <attribute name="head_me_9_nl0_ae0" type="java.lang.String"/>
+            <attribute name="judge_me_9_nl0_ae1" type="java.lang.String"/>
+            <attribute name="impulse_me_9_nl0_ae2" type="java.lang.String"/>
+            <attribute name="agencies_me_9_nl1_ae0" type="java.lang.String"/>
+            <attribute name="flat_me_9_nl1_ae1" type="java.lang.String"/>
+            <attribute name="train_me_9_nl1_ae2" type="java.lang.String"/>
+            <attribute name="poor_me_9_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="goat_me_9_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="selection_ad_1_nl0_ce0">
+            <attribute name="match_ad_1_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="wash_ad_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="gain_ad_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="oven_ad_1_nl0_ae3" type="java.lang.String"/>
+            <attribute name="give_ad_1_nl0_ae4" type="java.lang.String"/>
+            <attribute name="window_ad_1_nl0_ae5" type="java.lang.String"/>
+        </relation>
+        <relation name="paint_me_0_nl0_ce1">
+            <attribute name="dead_me_0_nl1_ae0" type="java.lang.String"/>
+            <attribute name="draw_me_0_nl1_ae1" type="java.lang.String"/>
+            <attribute name="send_me_0_nl1_ae2" type="java.lang.String"/>
+            <attribute name="winter_me_0_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="powder_me_0_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="destruction_dl_8_nl0_ce0">
+            <attribute name="conscious_dl_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="basin_dl_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="come_dl_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="long_dl_8_nl0_ae3" type="java.lang.String"/>
+        </relation>
+        <relation name="effect_me_2_nl0_ce0">
+            <attribute name="slow_me_2_nl0_ae0" type="java.lang.String"/>
+            <attribute name="word_me_2_nl0_ae1" type="java.lang.String"/>
+            <attribute name="kind_me_2_nl0_ae2" type="java.lang.String"/>
+            <attribute name="organization_me_2_nl0_ae0comp1_joinref_0" type="java.lang.String"/>
+            <attribute name="stick_me_2_nl0_ae1comp1_joinref_1" type="java.lang.String"/>
+        </relation>
+        <relation name="mind_me_1_nl0_ce0">
+            <attribute name="library_me_1_nl0_ae0" type="java.lang.String"/>
+            <attribute name="die_me_1_nl0_ae1" type="java.lang.String"/>
+            <attribute name="worry_me_1_nl0_ae2" type="java.lang.String"/>
+            <attribute name="hit_me_1_nl1_ae0" type="java.lang.String"/>
+            <attribute name="paint_me_1_nl1_ae1" type="java.lang.String"/>
+            <attribute name="decision_me_1_nl1_ae2" type="java.lang.String"/>
+            <attribute name="parallel_me_1_nl0_ae0comp1_joinattr_0" type="java.lang.String"/>
+            <attribute name="collection_me_1_nl0_ae1comp1_joinattr_1" type="java.lang.String"/>
+        </relation>
+        <relation name="could_adl_8_nl0_ce0">
+            <attribute name="error_adl_8_nl0_ae0ke0" type="java.lang.String"/>
+            <attribute name="trousers_adl_8_nl0_ae1" type="java.lang.String"/>
+            <attribute name="try_adl_8_nl0_ae2" type="java.lang.String"/>
+            <attribute name="complex_adl_8_nl0_ae3" type="java.lang.String"/>
+            <attribute name="hat_adl_8_nl0_ae4" type="java.lang.String"/>
+        </relation>
+    </relations>
+    <dependencies>
+        <dependency type="TGD">
+            <body>
+                <atom name="delicate_ad_0_nl0_ce0">
+                    <variable name="sleep_ad_0_nl0_ae0ke0"/>
+                    <variable name="call_ad_0_nl0_ae1"/>
+                    <variable name="road_ad_0_nl0_ae2"/>
+                    <variable name="rhythm_ad_0_nl0_ae3"/>
+                    <variable name="stomach_ad_0_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="speak_ad_0_nl0_ce0">
+                    <variable name="sleep_ad_0_nl0_ae0ke0"/>
+                    <variable name="call_ad_0_nl0_ae1"/>
+                    <variable name="road_ad_0_nl0_ae2"/>
+                    <variable name="rhythm_ad_0_nl0_ae3"/>
+                    <variable name="stomach_ad_0_nl0_ae4"/>
+                    <variable name="place_ad_0_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="hammer_dl_6_nl0_ce0">
+                    <variable name="cut_dl_6_nl0_ae0ke0"/>
+                    <variable name="ring_dl_6_nl0_ae1"/>
+                    <variable name="voice_dl_6_nl0_ae2"/>
+                    <variable name="room_dl_6_nl0_ae3"/>
+                    <variable name="impulse_dl_6_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="get_dl_6_nl0_ce0">
+                    <variable name="cut_dl_6_nl0_ae0ke0"/>
+                    <variable name="ring_dl_6_nl0_ae1"/>
+                    <variable name="voice_dl_6_nl0_ae2"/>
+                    <variable name="room_dl_6_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="mountain_adl_9_nl0_ce0">
+                    <variable name="powder_adl_9_nl0_ae0ke0"/>
+                    <variable name="dependent_adl_9_nl0_ae1"/>
+                    <variable name="desire_adl_9_nl0_ae2"/>
+                    <variable name="sleep_adl_9_nl0_ae3"/>
+                    <variable name="measure_adl_9_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="engine_adl_9_nl0_ce0">
+                    <variable name="powder_adl_9_nl0_ae0ke0"/>
+                    <variable name="dependent_adl_9_nl0_ae1"/>
+                    <variable name="desire_adl_9_nl0_ae2"/>
+                    <variable name="sleep_adl_9_nl0_ae3"/>
+                    <variable name="laugh_adl_9_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="seem_ad_7_nl0_ce0">
+                    <variable name="disappear_ad_7_nl0_ae0ke0"/>
+                    <variable name="awake_ad_7_nl0_ae1"/>
+                    <variable name="church_ad_7_nl0_ae2"/>
+                    <variable name="hammer_ad_7_nl0_ae3"/>
+                    <variable name="disgust_ad_7_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="shut_ad_7_nl0_ce0">
+                    <variable name="disappear_ad_7_nl0_ae0ke0"/>
+                    <variable name="awake_ad_7_nl0_ae1"/>
+                    <variable name="church_ad_7_nl0_ae2"/>
+                    <variable name="hammer_ad_7_nl0_ae3"/>
+                    <variable name="disgust_ad_7_nl0_ae4"/>
+                    <variable name="experience_ad_7_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="sign_dl_1_nl0_ce0">
+                    <variable name="bitter_dl_1_nl0_ae0ke0"/>
+                    <variable name="like_dl_1_nl0_ae1"/>
+                    <variable name="trick_dl_1_nl0_ae2"/>
+                    <variable name="green_dl_1_nl0_ae3"/>
+                    <variable name="jump_dl_1_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="enable_dl_1_nl0_ce0">
+                    <variable name="bitter_dl_1_nl0_ae0ke0"/>
+                    <variable name="like_dl_1_nl0_ae1"/>
+                    <variable name="trick_dl_1_nl0_ae2"/>
+                    <variable name="green_dl_1_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="small_cp_8_nl0_ce0">
+                    <variable name="broken_cp_8_nl0_ae0ke0"/>
+                    <variable name="brain_cp_8_nl0_ae1"/>
+                    <variable name="branch_cp_8_nl0_ae2"/>
+                    <variable name="swim_cp_8_nl0_ae3"/>
+                    <variable name="place_cp_8_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="small_cp_8_nl0_ce0copy8_8">
+                    <variable name="broken_cp_8_nl0_ae0ke0"/>
+                    <variable name="brain_cp_8_nl0_ae1"/>
+                    <variable name="branch_cp_8_nl0_ae2"/>
+                    <variable name="swim_cp_8_nl0_ae3"/>
+                    <variable name="place_cp_8_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="produce_dl_7_nl0_ce0">
+                    <variable name="full_dl_7_nl0_ae0ke0"/>
+                    <variable name="fork_dl_7_nl0_ae1"/>
+                    <variable name="stop_dl_7_nl0_ae2"/>
+                    <variable name="line_dl_7_nl0_ae3"/>
+                    <variable name="sail_dl_7_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="choose_dl_7_nl0_ce0">
+                    <variable name="full_dl_7_nl0_ae0ke0"/>
+                    <variable name="fork_dl_7_nl0_ae1"/>
+                    <variable name="stop_dl_7_nl0_ae2"/>
+                    <variable name="line_dl_7_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="point_adl_7_nl0_ce0">
+                    <variable name="learn_adl_7_nl0_ae0ke0"/>
+                    <variable name="provide_adl_7_nl0_ae1"/>
+                    <variable name="secret_adl_7_nl0_ae2"/>
+                    <variable name="poor_adl_7_nl0_ae3"/>
+                    <variable name="see_adl_7_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="open_adl_7_nl0_ce0">
+                    <variable name="learn_adl_7_nl0_ae0ke0"/>
+                    <variable name="provide_adl_7_nl0_ae1"/>
+                    <variable name="secret_adl_7_nl0_ae2"/>
+                    <variable name="poor_adl_7_nl0_ae3"/>
+                    <variable name="silk_adl_7_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="exist_ad_8_nl0_ce0">
+                    <variable name="cover_ad_8_nl0_ae0ke0"/>
+                    <variable name="eat_ad_8_nl0_ae1"/>
+                    <variable name="prefer_ad_8_nl0_ae2"/>
+                    <variable name="harbor_ad_8_nl0_ae3"/>
+                    <variable name="foot_ad_8_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="earth_ad_8_nl0_ce0">
+                    <variable name="cover_ad_8_nl0_ae0ke0"/>
+                    <variable name="eat_ad_8_nl0_ae1"/>
+                    <variable name="prefer_ad_8_nl0_ae2"/>
+                    <variable name="harbor_ad_8_nl0_ae3"/>
+                    <variable name="foot_ad_8_nl0_ae4"/>
+                    <variable name="year_ad_8_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="seem_adl_2_nl0_ce0">
+                    <variable name="record_adl_2_nl0_ae0ke0"/>
+                    <variable name="branch_adl_2_nl0_ae1"/>
+                    <variable name="safe_adl_2_nl0_ae2"/>
+                    <variable name="office_adl_2_nl0_ae3"/>
+                    <variable name="talk_adl_2_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="regard_adl_2_nl0_ce0">
+                    <variable name="record_adl_2_nl0_ae0ke0"/>
+                    <variable name="branch_adl_2_nl0_ae1"/>
+                    <variable name="safe_adl_2_nl0_ae2"/>
+                    <variable name="office_adl_2_nl0_ae3"/>
+                    <variable name="burn_adl_2_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="belong_ad_2_nl0_ce0">
+                    <variable name="increase_ad_2_nl0_ae0ke0"/>
+                    <variable name="animal_ad_2_nl0_ae1"/>
+                    <variable name="hate_ad_2_nl0_ae2"/>
+                    <variable name="ready_ad_2_nl0_ae3"/>
+                    <variable name="round_ad_2_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="win_ad_2_nl0_ce0">
+                    <variable name="increase_ad_2_nl0_ae0ke0"/>
+                    <variable name="animal_ad_2_nl0_ae1"/>
+                    <variable name="hate_ad_2_nl0_ae2"/>
+                    <variable name="ready_ad_2_nl0_ae3"/>
+                    <variable name="round_ad_2_nl0_ae4"/>
+                    <variable name="act_ad_2_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="tight_ad_6_nl0_ce0">
+                    <variable name="orange_ad_6_nl0_ae0ke0"/>
+                    <variable name="fertile_ad_6_nl0_ae1"/>
+                    <variable name="respect_ad_6_nl0_ae2"/>
+                    <variable name="interest_ad_6_nl0_ae3"/>
+                    <variable name="condition_ad_6_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="connection_ad_6_nl0_ce0">
+                    <variable name="orange_ad_6_nl0_ae0ke0"/>
+                    <variable name="fertile_ad_6_nl0_ae1"/>
+                    <variable name="respect_ad_6_nl0_ae2"/>
+                    <variable name="interest_ad_6_nl0_ae3"/>
+                    <variable name="condition_ad_6_nl0_ae4"/>
+                    <variable name="heart_ad_6_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="turn_ad_3_nl0_ce0">
+                    <variable name="chin_ad_3_nl0_ae0ke0"/>
+                    <variable name="argue_ad_3_nl0_ae1"/>
+                    <variable name="late_ad_3_nl0_ae2"/>
+                    <variable name="summer_ad_3_nl0_ae3"/>
+                    <variable name="will_ad_3_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="shut_ad_3_nl0_ce0">
+                    <variable name="chin_ad_3_nl0_ae0ke0"/>
+                    <variable name="argue_ad_3_nl0_ae1"/>
+                    <variable name="late_ad_3_nl0_ae2"/>
+                    <variable name="summer_ad_3_nl0_ae3"/>
+                    <variable name="will_ad_3_nl0_ae4"/>
+                    <variable name="buy_ad_3_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="could_adl_8_nl0_ce0">
+                    <variable name="error_adl_8_nl0_ae0ke0"/>
+                    <variable name="trousers_adl_8_nl0_ae1"/>
+                    <variable name="try_adl_8_nl0_ae2"/>
+                    <variable name="complex_adl_8_nl0_ae3"/>
+                    <variable name="hat_adl_8_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="driving_adl_8_nl0_ce0">
+                    <variable name="error_adl_8_nl0_ae0ke0"/>
+                    <variable name="trousers_adl_8_nl0_ae1"/>
+                    <variable name="try_adl_8_nl0_ae2"/>
+                    <variable name="complex_adl_8_nl0_ae3"/>
+                    <variable name="orange_adl_8_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="red_cp_3_nl0_ce0">
+                    <variable name="wrong_cp_3_nl0_ae0ke0"/>
+                    <variable name="past_cp_3_nl0_ae1"/>
+                    <variable name="wheel_cp_3_nl0_ae2"/>
+                    <variable name="work_cp_3_nl0_ae3"/>
+                    <variable name="letter_cp_3_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="red_cp_3_nl0_ce0copy3_3">
+                    <variable name="wrong_cp_3_nl0_ae0ke0"/>
+                    <variable name="past_cp_3_nl0_ae1"/>
+                    <variable name="wheel_cp_3_nl0_ae2"/>
+                    <variable name="work_cp_3_nl0_ae3"/>
+                    <variable name="letter_cp_3_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="place_cp_6_nl0_ce0">
+                    <variable name="expansion_cp_6_nl0_ae0ke0"/>
+                    <variable name="pipe_cp_6_nl0_ae1"/>
+                    <variable name="indicate_cp_6_nl0_ae2"/>
+                    <variable name="thank_cp_6_nl0_ae3"/>
+                    <variable name="stick_cp_6_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="place_cp_6_nl0_ce0copy6_6">
+                    <variable name="expansion_cp_6_nl0_ae0ke0"/>
+                    <variable name="pipe_cp_6_nl0_ae1"/>
+                    <variable name="indicate_cp_6_nl0_ae2"/>
+                    <variable name="thank_cp_6_nl0_ae3"/>
+                    <variable name="stick_cp_6_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="ink_dl_8_nl0_ce0">
+                    <variable name="conscious_dl_8_nl0_ae0ke0"/>
+                    <variable name="basin_dl_8_nl0_ae1"/>
+                    <variable name="come_dl_8_nl0_ae2"/>
+                    <variable name="long_dl_8_nl0_ae3"/>
+                    <variable name="drink_dl_8_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="destruction_dl_8_nl0_ce0">
+                    <variable name="conscious_dl_8_nl0_ae0ke0"/>
+                    <variable name="basin_dl_8_nl0_ae1"/>
+                    <variable name="come_dl_8_nl0_ae2"/>
+                    <variable name="long_dl_8_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="forgive_dl_4_nl0_ce0">
+                    <variable name="government_dl_4_nl0_ae0ke0"/>
+                    <variable name="event_dl_4_nl0_ae1"/>
+                    <variable name="sort_dl_4_nl0_ae2"/>
+                    <variable name="mean_dl_4_nl0_ae3"/>
+                    <variable name="desire_dl_4_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="paste_dl_4_nl0_ce0">
+                    <variable name="government_dl_4_nl0_ae0ke0"/>
+                    <variable name="event_dl_4_nl0_ae1"/>
+                    <variable name="sort_dl_4_nl0_ae2"/>
+                    <variable name="mean_dl_4_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="order_cp_7_nl0_ce0">
+                    <variable name="twist_cp_7_nl0_ae0ke0"/>
+                    <variable name="account_cp_7_nl0_ae1"/>
+                    <variable name="future_cp_7_nl0_ae2"/>
+                    <variable name="chin_cp_7_nl0_ae3"/>
+                    <variable name="mixed_cp_7_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="order_cp_7_nl0_ce0copy7_7">
+                    <variable name="twist_cp_7_nl0_ae0ke0"/>
+                    <variable name="account_cp_7_nl0_ae1"/>
+                    <variable name="future_cp_7_nl0_ae2"/>
+                    <variable name="chin_cp_7_nl0_ae3"/>
+                    <variable name="mixed_cp_7_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="opinion_dl_3_nl0_ce0">
+                    <variable name="prove_dl_3_nl0_ae0ke0"/>
+                    <variable name="base_dl_3_nl0_ae1"/>
+                    <variable name="speak_dl_3_nl0_ae2"/>
+                    <variable name="comb_dl_3_nl0_ae3"/>
+                    <variable name="paint_dl_3_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="degree_dl_3_nl0_ce0">
+                    <variable name="prove_dl_3_nl0_ae0ke0"/>
+                    <variable name="base_dl_3_nl0_ae1"/>
+                    <variable name="speak_dl_3_nl0_ae2"/>
+                    <variable name="comb_dl_3_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="inform_ad_5_nl0_ce0">
+                    <variable name="hollow_ad_5_nl0_ae0ke0"/>
+                    <variable name="art_ad_5_nl0_ae1"/>
+                    <variable name="fly_ad_5_nl0_ae2"/>
+                    <variable name="late_ad_5_nl0_ae3"/>
+                    <variable name="important_ad_5_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="support_ad_5_nl0_ce0">
+                    <variable name="hollow_ad_5_nl0_ae0ke0"/>
+                    <variable name="art_ad_5_nl0_ae1"/>
+                    <variable name="fly_ad_5_nl0_ae2"/>
+                    <variable name="late_ad_5_nl0_ae3"/>
+                    <variable name="important_ad_5_nl0_ae4"/>
+                    <variable name="silver_ad_5_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="exchange_dl_0_nl0_ce0">
+                    <variable name="discover_dl_0_nl0_ae0ke0"/>
+                    <variable name="settle_dl_0_nl0_ae1"/>
+                    <variable name="act_dl_0_nl0_ae2"/>
+                    <variable name="winter_dl_0_nl0_ae3"/>
+                    <variable name="net_dl_0_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="hollow_dl_0_nl0_ce0">
+                    <variable name="discover_dl_0_nl0_ae0ke0"/>
+                    <variable name="settle_dl_0_nl0_ae1"/>
+                    <variable name="act_dl_0_nl0_ae2"/>
+                    <variable name="winter_dl_0_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="effect_me_2_nl0_ce0">
+                    <variable name="slow_me_2_nl0_ae0"/>
+                    <variable name="word_me_2_nl0_ae1"/>
+                    <variable name="kind_me_2_nl0_ae2"/>
+                    <variable name="organization_me_2_nl0_ae0comp1_joinref_0"/>
+                    <variable name="stick_me_2_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="prove_me_2_nl0_ce1">
+                    <variable name="ring_me_2_nl1_ae0"/>
+                    <variable name="early_me_2_nl1_ae1"/>
+                    <variable name="violent_me_2_nl1_ae2"/>
+                    <variable name="organization_me_2_nl0_ae0comp1_joinref_0"/>
+                    <variable name="stick_me_2_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="chalk_me_2_nl0_ce0">
+                    <variable name="slow_me_2_nl0_ae0"/>
+                    <variable name="word_me_2_nl0_ae1"/>
+                    <variable name="kind_me_2_nl0_ae2"/>
+                    <variable name="ring_me_2_nl1_ae0"/>
+                    <variable name="early_me_2_nl1_ae1"/>
+                    <variable name="violent_me_2_nl1_ae2"/>
+                    <variable name="organization_me_2_nl0_ae0comp1_joinref_0"/>
+                    <variable name="stick_me_2_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="test_cp_0_nl0_ce0">
+                    <variable name="nut_cp_0_nl0_ae0ke0"/>
+                    <variable name="art_cp_0_nl0_ae1"/>
+                    <variable name="slope_cp_0_nl0_ae2"/>
+                    <variable name="measure_cp_0_nl0_ae3"/>
+                    <variable name="touch_cp_0_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="test_cp_0_nl0_ce0copy0_0">
+                    <variable name="nut_cp_0_nl0_ae0ke0"/>
+                    <variable name="art_cp_0_nl0_ae1"/>
+                    <variable name="slope_cp_0_nl0_ae2"/>
+                    <variable name="measure_cp_0_nl0_ae3"/>
+                    <variable name="touch_cp_0_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="board_cp_2_nl0_ce0">
+                    <variable name="affect_cp_2_nl0_ae0ke0"/>
+                    <variable name="different_cp_2_nl0_ae1"/>
+                    <variable name="society_cp_2_nl0_ae2"/>
+                    <variable name="warn_cp_2_nl0_ae3"/>
+                    <variable name="tail_cp_2_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="board_cp_2_nl0_ce0copy2_2">
+                    <variable name="affect_cp_2_nl0_ae0ke0"/>
+                    <variable name="different_cp_2_nl0_ae1"/>
+                    <variable name="society_cp_2_nl0_ae2"/>
+                    <variable name="warn_cp_2_nl0_ae3"/>
+                    <variable name="tail_cp_2_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="key_adl_6_nl0_ce0">
+                    <variable name="cry_adl_6_nl0_ae0ke0"/>
+                    <variable name="poor_adl_6_nl0_ae1"/>
+                    <variable name="long_adl_6_nl0_ae2"/>
+                    <variable name="bright_adl_6_nl0_ae3"/>
+                    <variable name="request_adl_6_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="rhythm_adl_6_nl0_ce0">
+                    <variable name="cry_adl_6_nl0_ae0ke0"/>
+                    <variable name="poor_adl_6_nl0_ae1"/>
+                    <variable name="long_adl_6_nl0_ae2"/>
+                    <variable name="bright_adl_6_nl0_ae3"/>
+                    <variable name="shade_adl_6_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="family_adl_0_nl0_ce0">
+                    <variable name="learn_adl_0_nl0_ae0ke0"/>
+                    <variable name="parallel_adl_0_nl0_ae1"/>
+                    <variable name="grain_adl_0_nl0_ae2"/>
+                    <variable name="lift_adl_0_nl0_ae3"/>
+                    <variable name="thin_adl_0_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="yellow_adl_0_nl0_ce0">
+                    <variable name="learn_adl_0_nl0_ae0ke0"/>
+                    <variable name="parallel_adl_0_nl0_ae1"/>
+                    <variable name="grain_adl_0_nl0_ae2"/>
+                    <variable name="lift_adl_0_nl0_ae3"/>
+                    <variable name="blade_adl_0_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="cheese_cp_1_nl0_ce0">
+                    <variable name="society_cp_1_nl0_ae0ke0"/>
+                    <variable name="compare_cp_1_nl0_ae1"/>
+                    <variable name="branch_cp_1_nl0_ae2"/>
+                    <variable name="demand_cp_1_nl0_ae3"/>
+                    <variable name="great_cp_1_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="cheese_cp_1_nl0_ce0copy1_1">
+                    <variable name="society_cp_1_nl0_ae0ke0"/>
+                    <variable name="compare_cp_1_nl0_ae1"/>
+                    <variable name="branch_cp_1_nl0_ae2"/>
+                    <variable name="demand_cp_1_nl0_ae3"/>
+                    <variable name="great_cp_1_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="chain_ad_4_nl0_ce0">
+                    <variable name="appear_ad_4_nl0_ae0ke0"/>
+                    <variable name="tail_ad_4_nl0_ae1"/>
+                    <variable name="clock_ad_4_nl0_ae2"/>
+                    <variable name="express_ad_4_nl0_ae3"/>
+                    <variable name="wall_ad_4_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="private_ad_4_nl0_ce0">
+                    <variable name="appear_ad_4_nl0_ae0ke0"/>
+                    <variable name="tail_ad_4_nl0_ae1"/>
+                    <variable name="clock_ad_4_nl0_ae2"/>
+                    <variable name="express_ad_4_nl0_ae3"/>
+                    <variable name="wall_ad_4_nl0_ae4"/>
+                    <variable name="common_ad_4_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="side_adl_5_nl0_ce0">
+                    <variable name="arrange_adl_5_nl0_ae0ke0"/>
+                    <variable name="first_adl_5_nl0_ae1"/>
+                    <variable name="play_adl_5_nl0_ae2"/>
+                    <variable name="stamp_adl_5_nl0_ae3"/>
+                    <variable name="appear_adl_5_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="store_adl_5_nl0_ce0">
+                    <variable name="arrange_adl_5_nl0_ae0ke0"/>
+                    <variable name="first_adl_5_nl0_ae1"/>
+                    <variable name="play_adl_5_nl0_ae2"/>
+                    <variable name="stamp_adl_5_nl0_ae3"/>
+                    <variable name="jewel_adl_5_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="handle_me_1_nl0_ce0">
+                    <variable name="library_me_1_nl0_ae0"/>
+                    <variable name="die_me_1_nl0_ae1"/>
+                    <variable name="worry_me_1_nl0_ae2"/>
+                    <variable name="parallel_me_1_nl0_ae0comp1_joinref_0"/>
+                    <variable name="collection_me_1_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="brown_me_1_nl0_ce1">
+                    <variable name="hit_me_1_nl1_ae0"/>
+                    <variable name="paint_me_1_nl1_ae1"/>
+                    <variable name="decision_me_1_nl1_ae2"/>
+                    <variable name="parallel_me_1_nl0_ae0comp1_joinref_0"/>
+                    <variable name="collection_me_1_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="mind_me_1_nl0_ce0">
+                    <variable name="library_me_1_nl0_ae0"/>
+                    <variable name="die_me_1_nl0_ae1"/>
+                    <variable name="worry_me_1_nl0_ae2"/>
+                    <variable name="hit_me_1_nl1_ae0"/>
+                    <variable name="paint_me_1_nl1_ae1"/>
+                    <variable name="decision_me_1_nl1_ae2"/>
+                    <variable name="parallel_me_1_nl0_ae0comp1_joinref_0"/>
+                    <variable name="collection_me_1_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="straight_me_8_nl0_ce0">
+                    <variable name="complain_me_8_nl0_ae0"/>
+                    <variable name="question_me_8_nl0_ae1"/>
+                    <variable name="walk_me_8_nl0_ae2"/>
+                    <variable name="root_me_8_nl0_ae0comp1_joinref_0"/>
+                    <variable name="pain_me_8_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="count_me_8_nl0_ce1">
+                    <variable name="involve_me_8_nl1_ae0"/>
+                    <variable name="explain_me_8_nl1_ae1"/>
+                    <variable name="theory_me_8_nl1_ae2"/>
+                    <variable name="root_me_8_nl0_ae0comp1_joinref_0"/>
+                    <variable name="pain_me_8_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="settle_me_8_nl0_ce0">
+                    <variable name="complain_me_8_nl0_ae0"/>
+                    <variable name="question_me_8_nl0_ae1"/>
+                    <variable name="walk_me_8_nl0_ae2"/>
+                    <variable name="involve_me_8_nl1_ae0"/>
+                    <variable name="explain_me_8_nl1_ae1"/>
+                    <variable name="theory_me_8_nl1_ae2"/>
+                    <variable name="root_me_8_nl0_ae0comp1_joinref_0"/>
+                    <variable name="pain_me_8_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="discover_cp_5_nl0_ce0">
+                    <variable name="different_cp_5_nl0_ae0ke0"/>
+                    <variable name="reveal_cp_5_nl0_ae1"/>
+                    <variable name="oven_cp_5_nl0_ae2"/>
+                    <variable name="narrow_cp_5_nl0_ae3"/>
+                    <variable name="rest_cp_5_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="discover_cp_5_nl0_ce0copy5_5">
+                    <variable name="different_cp_5_nl0_ae0ke0"/>
+                    <variable name="reveal_cp_5_nl0_ae1"/>
+                    <variable name="oven_cp_5_nl0_ae2"/>
+                    <variable name="narrow_cp_5_nl0_ae3"/>
+                    <variable name="rest_cp_5_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="death_me_6_nl0_ce0">
+                    <variable name="shake_me_6_nl0_ae0"/>
+                    <variable name="hollow_me_6_nl0_ae1"/>
+                    <variable name="hollow_me_6_nl0_ae2"/>
+                    <variable name="count_me_6_nl0_ae0comp1_joinref_0"/>
+                    <variable name="amount_me_6_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="leather_me_6_nl0_ce1">
+                    <variable name="distribution_me_6_nl1_ae0"/>
+                    <variable name="gold_me_6_nl1_ae1"/>
+                    <variable name="pain_me_6_nl1_ae2"/>
+                    <variable name="count_me_6_nl0_ae0comp1_joinref_0"/>
+                    <variable name="amount_me_6_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="accept_me_6_nl0_ce0">
+                    <variable name="shake_me_6_nl0_ae0"/>
+                    <variable name="hollow_me_6_nl0_ae1"/>
+                    <variable name="hollow_me_6_nl0_ae2"/>
+                    <variable name="distribution_me_6_nl1_ae0"/>
+                    <variable name="gold_me_6_nl1_ae1"/>
+                    <variable name="pain_me_6_nl1_ae2"/>
+                    <variable name="count_me_6_nl0_ae0comp1_joinref_0"/>
+                    <variable name="amount_me_6_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="insurance_dl_9_nl0_ce0">
+                    <variable name="rhythm_dl_9_nl0_ae0ke0"/>
+                    <variable name="cook_dl_9_nl0_ae1"/>
+                    <variable name="thin_dl_9_nl0_ae2"/>
+                    <variable name="reply_dl_9_nl0_ae3"/>
+                    <variable name="require_dl_9_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="keep_dl_9_nl0_ce0">
+                    <variable name="rhythm_dl_9_nl0_ae0ke0"/>
+                    <variable name="cook_dl_9_nl0_ae1"/>
+                    <variable name="thin_dl_9_nl0_ae2"/>
+                    <variable name="reply_dl_9_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="bent_me_3_nl0_ce1">
+                    <variable name="sweet_me_3_nl1_ae0"/>
+                    <variable name="rod_me_3_nl1_ae1"/>
+                    <variable name="silk_me_3_nl1_ae2"/>
+                    <variable name="mind_me_3_nl0_ae0comp1_joinref_0"/>
+                    <variable name="door_me_3_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="charge_me_3_nl0_ce0">
+                    <variable name="certain_me_3_nl0_ae0"/>
+                    <variable name="sugar_me_3_nl0_ae1"/>
+                    <variable name="collection_me_3_nl0_ae2"/>
+                    <variable name="mind_me_3_nl0_ae0comp1_joinref_0"/>
+                    <variable name="door_me_3_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="crush_me_3_nl0_ce0">
+                    <variable name="certain_me_3_nl0_ae0"/>
+                    <variable name="sugar_me_3_nl0_ae1"/>
+                    <variable name="collection_me_3_nl0_ae2"/>
+                    <variable name="sweet_me_3_nl1_ae0"/>
+                    <variable name="rod_me_3_nl1_ae1"/>
+                    <variable name="silk_me_3_nl1_ae2"/>
+                    <variable name="mind_me_3_nl0_ae0comp1_joinref_0"/>
+                    <variable name="door_me_3_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="company_adl_1_nl0_ce0">
+                    <variable name="church_adl_1_nl0_ae0ke0"/>
+                    <variable name="digestion_adl_1_nl0_ae1"/>
+                    <variable name="control_adl_1_nl0_ae2"/>
+                    <variable name="matter_adl_1_nl0_ae3"/>
+                    <variable name="rough_adl_1_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="train_adl_1_nl0_ce0">
+                    <variable name="church_adl_1_nl0_ae0ke0"/>
+                    <variable name="digestion_adl_1_nl0_ae1"/>
+                    <variable name="control_adl_1_nl0_ae2"/>
+                    <variable name="matter_adl_1_nl0_ae3"/>
+                    <variable name="suggest_adl_1_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="soap_dl_2_nl0_ce0">
+                    <variable name="ring_dl_2_nl0_ae0ke0"/>
+                    <variable name="stay_dl_2_nl0_ae1"/>
+                    <variable name="shall_dl_2_nl0_ae2"/>
+                    <variable name="committee_dl_2_nl0_ae3"/>
+                    <variable name="needle_dl_2_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="aim_dl_2_nl0_ce0">
+                    <variable name="ring_dl_2_nl0_ae0ke0"/>
+                    <variable name="stay_dl_2_nl0_ae1"/>
+                    <variable name="shall_dl_2_nl0_ae2"/>
+                    <variable name="committee_dl_2_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="pick_me_9_nl0_ce0">
+                    <variable name="head_me_9_nl0_ae0"/>
+                    <variable name="judge_me_9_nl0_ae1"/>
+                    <variable name="impulse_me_9_nl0_ae2"/>
+                    <variable name="poor_me_9_nl0_ae0comp1_joinref_0"/>
+                    <variable name="goat_me_9_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="prose_me_9_nl0_ce1">
+                    <variable name="agencies_me_9_nl1_ae0"/>
+                    <variable name="flat_me_9_nl1_ae1"/>
+                    <variable name="train_me_9_nl1_ae2"/>
+                    <variable name="poor_me_9_nl0_ae0comp1_joinref_0"/>
+                    <variable name="goat_me_9_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="boot_me_9_nl0_ce0">
+                    <variable name="head_me_9_nl0_ae0"/>
+                    <variable name="judge_me_9_nl0_ae1"/>
+                    <variable name="impulse_me_9_nl0_ae2"/>
+                    <variable name="agencies_me_9_nl1_ae0"/>
+                    <variable name="flat_me_9_nl1_ae1"/>
+                    <variable name="train_me_9_nl1_ae2"/>
+                    <variable name="poor_me_9_nl0_ae0comp1_joinref_0"/>
+                    <variable name="goat_me_9_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="return_ad_1_nl0_ce0">
+                    <variable name="match_ad_1_nl0_ae0ke0"/>
+                    <variable name="wash_ad_1_nl0_ae1"/>
+                    <variable name="gain_ad_1_nl0_ae2"/>
+                    <variable name="oven_ad_1_nl0_ae3"/>
+                    <variable name="give_ad_1_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="selection_ad_1_nl0_ce0">
+                    <variable name="match_ad_1_nl0_ae0ke0"/>
+                    <variable name="wash_ad_1_nl0_ae1"/>
+                    <variable name="gain_ad_1_nl0_ae2"/>
+                    <variable name="oven_ad_1_nl0_ae3"/>
+                    <variable name="give_ad_1_nl0_ae4"/>
+                    <variable name="window_ad_1_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="blue_cp_4_nl0_ce0">
+                    <variable name="describe_cp_4_nl0_ae0ke0"/>
+                    <variable name="report_cp_4_nl0_ae1"/>
+                    <variable name="night_cp_4_nl0_ae2"/>
+                    <variable name="find_cp_4_nl0_ae3"/>
+                    <variable name="attention_cp_4_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="blue_cp_4_nl0_ce0copy4_4">
+                    <variable name="describe_cp_4_nl0_ae0ke0"/>
+                    <variable name="report_cp_4_nl0_ae1"/>
+                    <variable name="night_cp_4_nl0_ae2"/>
+                    <variable name="find_cp_4_nl0_ae3"/>
+                    <variable name="attention_cp_4_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="close_me_7_nl0_ce1">
+                    <variable name="stiff_me_7_nl1_ae0"/>
+                    <variable name="feeling_me_7_nl1_ae1"/>
+                    <variable name="connect_me_7_nl1_ae2"/>
+                    <variable name="probable_me_7_nl0_ae0comp1_joinref_0"/>
+                    <variable name="low_me_7_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="bath_me_7_nl0_ce0">
+                    <variable name="butter_me_7_nl0_ae0"/>
+                    <variable name="copy_me_7_nl0_ae1"/>
+                    <variable name="thick_me_7_nl0_ae2"/>
+                    <variable name="probable_me_7_nl0_ae0comp1_joinref_0"/>
+                    <variable name="low_me_7_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="disease_me_7_nl0_ce0">
+                    <variable name="butter_me_7_nl0_ae0"/>
+                    <variable name="copy_me_7_nl0_ae1"/>
+                    <variable name="thick_me_7_nl0_ae2"/>
+                    <variable name="stiff_me_7_nl1_ae0"/>
+                    <variable name="feeling_me_7_nl1_ae1"/>
+                    <variable name="connect_me_7_nl1_ae2"/>
+                    <variable name="probable_me_7_nl0_ae0comp1_joinref_0"/>
+                    <variable name="low_me_7_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="beautiful_adl_4_nl0_ce0">
+                    <variable name="watch_adl_4_nl0_ae0ke0"/>
+                    <variable name="form_adl_4_nl0_ae1"/>
+                    <variable name="high_adl_4_nl0_ae2"/>
+                    <variable name="stamp_adl_4_nl0_ae3"/>
+                    <variable name="check_adl_4_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="place_adl_4_nl0_ce0">
+                    <variable name="watch_adl_4_nl0_ae0ke0"/>
+                    <variable name="form_adl_4_nl0_ae1"/>
+                    <variable name="high_adl_4_nl0_ae2"/>
+                    <variable name="stamp_adl_4_nl0_ae3"/>
+                    <variable name="language_adl_4_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="account_dl_5_nl0_ce0">
+                    <variable name="fiction_dl_5_nl0_ae0ke0"/>
+                    <variable name="round_dl_5_nl0_ae1"/>
+                    <variable name="soup_dl_5_nl0_ae2"/>
+                    <variable name="regret_dl_5_nl0_ae3"/>
+                    <variable name="train_dl_5_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="beat_dl_5_nl0_ce0">
+                    <variable name="fiction_dl_5_nl0_ae0ke0"/>
+                    <variable name="round_dl_5_nl0_ae1"/>
+                    <variable name="soup_dl_5_nl0_ae2"/>
+                    <variable name="regret_dl_5_nl0_ae3"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="paint_me_0_nl0_ce1">
+                    <variable name="dead_me_0_nl1_ae0"/>
+                    <variable name="draw_me_0_nl1_ae1"/>
+                    <variable name="send_me_0_nl1_ae2"/>
+                    <variable name="winter_me_0_nl0_ae0comp1_joinref_0"/>
+                    <variable name="powder_me_0_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="work_me_0_nl0_ce0">
+                    <variable name="discuss_me_0_nl0_ae0"/>
+                    <variable name="involve_me_0_nl0_ae1"/>
+                    <variable name="use_me_0_nl0_ae2"/>
+                    <variable name="winter_me_0_nl0_ae0comp1_joinref_0"/>
+                    <variable name="powder_me_0_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="regular_me_0_nl0_ce0">
+                    <variable name="discuss_me_0_nl0_ae0"/>
+                    <variable name="involve_me_0_nl0_ae1"/>
+                    <variable name="use_me_0_nl0_ae2"/>
+                    <variable name="dead_me_0_nl1_ae0"/>
+                    <variable name="draw_me_0_nl1_ae1"/>
+                    <variable name="send_me_0_nl1_ae2"/>
+                    <variable name="winter_me_0_nl0_ae0comp1_joinref_0"/>
+                    <variable name="powder_me_0_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="worry_me_4_nl0_ce0">
+                    <variable name="chalk_me_4_nl0_ae0"/>
+                    <variable name="regular_me_4_nl0_ae1"/>
+                    <variable name="degree_me_4_nl0_ae2"/>
+                    <variable name="political_me_4_nl0_ae0comp1_joinref_0"/>
+                    <variable name="language_me_4_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="start_me_4_nl0_ce1">
+                    <variable name="fruit_me_4_nl1_ae0"/>
+                    <variable name="science_me_4_nl1_ae1"/>
+                    <variable name="desire_me_4_nl1_ae2"/>
+                    <variable name="political_me_4_nl0_ae0comp1_joinref_0"/>
+                    <variable name="language_me_4_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="last_me_4_nl0_ce0">
+                    <variable name="chalk_me_4_nl0_ae0"/>
+                    <variable name="regular_me_4_nl0_ae1"/>
+                    <variable name="degree_me_4_nl0_ae2"/>
+                    <variable name="fruit_me_4_nl1_ae0"/>
+                    <variable name="science_me_4_nl1_ae1"/>
+                    <variable name="desire_me_4_nl1_ae2"/>
+                    <variable name="political_me_4_nl0_ae0comp1_joinref_0"/>
+                    <variable name="language_me_4_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="flower_me_5_nl0_ce0">
+                    <variable name="involve_me_5_nl0_ae0"/>
+                    <variable name="mention_me_5_nl0_ae1"/>
+                    <variable name="pencil_me_5_nl0_ae2"/>
+                    <variable name="sleep_me_5_nl0_ae0comp1_joinref_0"/>
+                    <variable name="clean_me_5_nl0_ae1comp1_joinref_1"/>
+                </atom>
+                <atom name="grip_me_5_nl0_ce1">
+                    <variable name="complex_me_5_nl1_ae0"/>
+                    <variable name="claim_me_5_nl1_ae1"/>
+                    <variable name="state_me_5_nl1_ae2"/>
+                    <variable name="sleep_me_5_nl0_ae0comp1_joinref_0"/>
+                    <variable name="clean_me_5_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="egg_me_5_nl0_ce0">
+                    <variable name="involve_me_5_nl0_ae0"/>
+                    <variable name="mention_me_5_nl0_ae1"/>
+                    <variable name="pencil_me_5_nl0_ae2"/>
+                    <variable name="complex_me_5_nl1_ae0"/>
+                    <variable name="claim_me_5_nl1_ae1"/>
+                    <variable name="state_me_5_nl1_ae2"/>
+                    <variable name="sleep_me_5_nl0_ae0comp1_joinref_0"/>
+                    <variable name="clean_me_5_nl0_ae1comp1_joinref_1"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="poison_ad_9_nl0_ce0">
+                    <variable name="opinion_ad_9_nl0_ae0ke0"/>
+                    <variable name="complain_ad_9_nl0_ae1"/>
+                    <variable name="snake_ad_9_nl0_ae2"/>
+                    <variable name="bucket_ad_9_nl0_ae3"/>
+                    <variable name="angle_ad_9_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="jump_ad_9_nl0_ce0">
+                    <variable name="opinion_ad_9_nl0_ae0ke0"/>
+                    <variable name="complain_ad_9_nl0_ae1"/>
+                    <variable name="snake_ad_9_nl0_ae2"/>
+                    <variable name="bucket_ad_9_nl0_ae3"/>
+                    <variable name="angle_ad_9_nl0_ae4"/>
+                    <variable name="lift_ad_9_nl0_ae5"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="approval_cp_9_nl0_ce0">
+                    <variable name="blow_cp_9_nl0_ae0ke0"/>
+                    <variable name="division_cp_9_nl0_ae1"/>
+                    <variable name="ready_cp_9_nl0_ae2"/>
+                    <variable name="property_cp_9_nl0_ae3"/>
+                    <variable name="gun_cp_9_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="approval_cp_9_nl0_ce0copy9_9">
+                    <variable name="blow_cp_9_nl0_ae0ke0"/>
+                    <variable name="division_cp_9_nl0_ae1"/>
+                    <variable name="ready_cp_9_nl0_ae2"/>
+                    <variable name="property_cp_9_nl0_ae3"/>
+                    <variable name="gun_cp_9_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+        <dependency type="TGD">
+            <body>
+                <atom name="business_adl_3_nl0_ce0">
+                    <variable name="yellow_adl_3_nl0_ae0ke0"/>
+                    <variable name="receipt_adl_3_nl0_ae1"/>
+                    <variable name="fish_adl_3_nl0_ae2"/>
+                    <variable name="wish_adl_3_nl0_ae3"/>
+                    <variable name="red_adl_3_nl0_ae4"/>
+                </atom>
+            </body>
+            <head>
+                <atom name="thumb_adl_3_nl0_ce0">
+                    <variable name="yellow_adl_3_nl0_ae0ke0"/>
+                    <variable name="receipt_adl_3_nl0_ae1"/>
+                    <variable name="fish_adl_3_nl0_ae2"/>
+                    <variable name="wish_adl_3_nl0_ae3"/>
+                    <variable name="go_adl_3_nl0_ae4"/>
+                </atom>
+            </head>
+        </dependency>
+    </dependencies>
+</schema>

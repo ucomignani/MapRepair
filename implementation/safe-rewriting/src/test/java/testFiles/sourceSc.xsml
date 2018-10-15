@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xsml:schemaMapping xmlns:xsml="http://com.ibm.clio.model/xsml/2.0">
+  <schemas>
+    <source name="sourceSc_Src0" rootName="sourceSc_Src" schemaLocation="sourceSc_Src.xsd"/>
+    <target name="sourceSc_Trg0" rootName="sourceSc_Trg" schemaLocation="sourceSc_Trg.xsd"/>
+  </schemas>
+  <componentMappings>
+    <valueMapping>
+      <source value="$sourceSc_Src0/test_cp_0_nl0_ce0/nut_cp_0_nl0_ae0ke0"/>
+      <target value="$sourceSc_Trg0/test_cp_0_nl0_ce0copy0_0/nut_cp_0_nl0_ae0ke0"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/test_cp_0_nl0_ce0/art_cp_0_nl0_ae1"/>
+      <target value="$sourceSc_Trg0/test_cp_0_nl0_ce0copy0_0/art_cp_0_nl0_ae1"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/test_cp_0_nl0_ce0/slope_cp_0_nl0_ae2"/>
+      <target value="$sourceSc_Trg0/test_cp_0_nl0_ce0copy0_0/slope_cp_0_nl0_ae2"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/test_cp_0_nl0_ce0/measure_cp_0_nl0_ae3"/>
+      <target value="$sourceSc_Trg0/test_cp_0_nl0_ce0copy0_0/measure_cp_0_nl0_ae3"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/test_cp_0_nl0_ce0/touch_cp_0_nl0_ae4"/>
+      <target value="$sourceSc_Trg0/test_cp_0_nl0_ce0copy0_0/touch_cp_0_nl0_ae4"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/compare_me_0_nl0_ce0/branch_me_0_nl0_ae0"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/branch_me_0_nl0_ae0"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/compare_me_0_nl0_ce0/demand_me_0_nl0_ae1"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/demand_me_0_nl0_ae1"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/compare_me_0_nl0_ce0/great_me_0_nl0_ae2"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/great_me_0_nl0_ae2"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/board_me_0_nl0_ce1/affect_me_0_nl1_ae0"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/affect_me_0_nl1_ae0"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/board_me_0_nl0_ce1/different_me_0_nl1_ae1"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/different_me_0_nl1_ae1"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/board_me_0_nl0_ce1/society_me_0_nl1_ae2"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/society_me_0_nl1_ae2"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/board_me_0_nl0_ce1/cheese_me_0_nl0_ae0comp1_joinattr_0"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/cheese_me_0_nl0_ae0comp1_joinattr_0"/>
+    </valueMapping>
+    <valueMapping>
+      <source value="$sourceSc_Src0/board_me_0_nl0_ce1/society_me_0_nl0_ae1comp1_joinattr_1"/>
+      <target value="$sourceSc_Trg0/warn_me_0_nl0_ce0/society_me_0_nl0_ae1comp1_joinattr_1"/>
+    </valueMapping>
+  </componentMappings>
+  <logicalMappings>
+    <logicalMapping name="M0">
+      <source>
+        <entity value="$sourceSc_Src0/test_cp_0_nl0_ce0" name="smtest_cp_0_nl0_ce0"/>
+      </source>
+      <target>
+        <entity value="$sourceSc_Trg0/test_cp_0_nl0_ce0copy0_0" name="tmtest_cp_0_nl0_ce0copy0_0"/>
+      </target>
+      <mapping>$smtest_cp_0_nl0_ce0/nut_cp_0_nl0_ae0ke0 = $tmtest_cp_0_nl0_ce0copy0_0/nut_cp_0_nl0_ae0ke0 AND $smtest_cp_0_nl0_ce0/art_cp_0_nl0_ae1 = $tmtest_cp_0_nl0_ce0copy0_0/art_cp_0_nl0_ae1 AND $smtest_cp_0_nl0_ce0/slope_cp_0_nl0_ae2 = $tmtest_cp_0_nl0_ce0copy0_0/slope_cp_0_nl0_ae2 AND $smtest_cp_0_nl0_ce0/measure_cp_0_nl0_ae3 = $tmtest_cp_0_nl0_ce0copy0_0/measure_cp_0_nl0_ae3 AND $smtest_cp_0_nl0_ce0/touch_cp_0_nl0_ae4 = $tmtest_cp_0_nl0_ce0copy0_0/touch_cp_0_nl0_ae4</mapping>
+      </logicalMapping>
+    <logicalMapping name="M1">
+      <source>
+        <entity value="$sourceSc_Src0/compare_me_0_nl0_ce0" name="smcompare_me_0_nl0_ce0"/>
+        <entity value="$sourceSc_Src0/board_me_0_nl0_ce1" name="smboard_me_0_nl0_ce1"/>
+      <predicate>$smcompare_me_0_nl0_ce0/cheese_me_0_nl0_ae0comp1_joinref_0 = $smboard_me_0_nl0_ce1/cheese_me_0_nl0_ae0comp1_joinattr_0 AND $smcompare_me_0_nl0_ce0/society_me_0_nl0_ae1comp1_joinref_1 = $smboard_me_0_nl0_ce1/society_me_0_nl0_ae1comp1_joinattr_1</predicate>
+      </source>
+      <target>
+        <entity value="$sourceSc_Trg0/warn_me_0_nl0_ce0" name="tmwarn_me_0_nl0_ce0"/>
+      </target>
+      <mapping>$smcompare_me_0_nl0_ce0/branch_me_0_nl0_ae0 = $tmwarn_me_0_nl0_ce0/branch_me_0_nl0_ae0 AND $smcompare_me_0_nl0_ce0/demand_me_0_nl0_ae1 = $tmwarn_me_0_nl0_ce0/demand_me_0_nl0_ae1 AND $smcompare_me_0_nl0_ce0/great_me_0_nl0_ae2 = $tmwarn_me_0_nl0_ce0/great_me_0_nl0_ae2 AND $smboard_me_0_nl0_ce1/affect_me_0_nl1_ae0 = $tmwarn_me_0_nl0_ce0/affect_me_0_nl1_ae0 AND $smboard_me_0_nl0_ce1/different_me_0_nl1_ae1 = $tmwarn_me_0_nl0_ce0/different_me_0_nl1_ae1 AND $smboard_me_0_nl0_ce1/society_me_0_nl1_ae2 = $tmwarn_me_0_nl0_ce0/society_me_0_nl1_ae2 AND $smcompare_me_0_nl0_ce0/cheese_me_0_nl0_ae0comp1_joinref_0 = $tmwarn_me_0_nl0_ce0/cheese_me_0_nl0_ae0comp1_joinattr_0 AND $smcompare_me_0_nl0_ce0/society_me_0_nl0_ae1comp1_joinref_1 = $tmwarn_me_0_nl0_ce0/society_me_0_nl0_ae1comp1_joinattr_1</mapping>
+      </logicalMapping>
+  </logicalMappings>
+</xsml:schemaMapping>
