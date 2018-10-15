@@ -14,4 +14,4 @@ Each directory in "scenarios/" contain :
 
 ### Appendix
 
-"appendix.pdf" contain the proofs of section IV of the corresponding paper.
+"appendix.pdf" contains the proofs of section IV of the corresponding paper.
