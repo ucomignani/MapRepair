@@ -11,7 +11,3 @@ Scenarios used for the benchmark of the corresponding paper and additional scena
 Each directory in "scenarios/" contain :
 * a "PV.xml" file, corresponding to a policy views set from iBench converted in a format usable by our implementation.
 * Other files are mappings generated from "PV.xml" source schema and needing to be repaired.
-
-### Appendix
-
-"appendix.pdf" contains the proofs of section IV of the corresponding paper.
