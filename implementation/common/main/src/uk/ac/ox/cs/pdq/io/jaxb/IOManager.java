@@ -3,6 +3,7 @@ package uk.ac.ox.cs.pdq.io.jaxb;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.OutputStream;
+import java.io.StringReader;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Type;
@@ -58,6 +59,24 @@ public class IOManager {
 		JAXBContext jaxbContext = JAXBContext.newInstance(AdaptedSchema.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 		AdaptedSchema customer = (AdaptedSchema) jaxbUnmarshaller.unmarshal(schema);
+		return customer.toSchema();
+	}
+
+	/**
+	 * Imports a Schema object from file.
+	 *
+	 * @param schema
+	 *            File pointer to the xml file.
+	 * @return parsed Schema object
+	 * @throws JAXBException
+	 *             In case importing fails.
+	 * @throws FileNotFoundException
+	 */
+	public static Schema importSchema(String schema) throws JAXBException {
+		JAXBContext jaxbContext = JAXBContext.newInstance(AdaptedSchema.class);
+		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+		StringReader reader = new StringReader(schema);
+		AdaptedSchema customer = (AdaptedSchema) jaxbUnmarshaller.unmarshal(reader);
 		return customer.toSchema();
 	}
 

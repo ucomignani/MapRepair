@@ -211,5 +211,29 @@ public class Dependency extends QuantifiedFormula {
     public static Dependency create(Atom[] body, Atom[] head) {
         return Cache.dependency.retrieve(new Dependency(body, head));
     }
-    
+
+    public String toViewString() {
+		String bodyString = getAtomsString(this.getBodyAtoms());
+		String headString = getAtomsString(this.getHeadAtoms());
+
+		return headString + " =\n  " + bodyString;
+	}
+
+	public String toTgdString() {
+		String bodyString = getAtomsString(this.getBodyAtoms());
+		String headString = getAtomsString(this.getHeadAtoms());
+
+		return bodyString + "\n  -> " + headString;
+	}
+
+	private String getAtomsString(Atom[] atoms) {
+		String bodyString = "";
+		for(int i = 0; i < atoms.length; i++){
+			if(i != 0){
+				bodyString += "  AND  ";
+			}
+			bodyString += atoms[i].toString();
+		}
+		return bodyString;
+	}
 }

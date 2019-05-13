@@ -1,10 +1,8 @@
 import org.apache.commons.cli.*;
-import org.openjdk.jmh.runner.options.CommandLineOptionException;
 import preference.KNNPreference;
 import preference.MaxAvgValuesPreference;
 import preference.MaxFrontierPreference;
 import preference.Preference;
-import uk.ac.ox.cs.pdq.db.Schema;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;
@@ -12,6 +10,7 @@ import java.io.FileNotFoundException;
 
 import uk.ac.ox.cs.pdq.db.Schema;
 import uk.ac.ox.cs.pdq.io.jaxb.IOManager;
+import util.SafeRewriting;
 
 public class RepairMain {
 

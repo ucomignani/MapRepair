@@ -15,6 +15,7 @@ import uk.ac.ox.cs.pdq.fol.TGD;
 import uk.ac.ox.cs.pdq.fol.Variable;
 import uk.ac.ox.cs.pdq.io.jaxb.IOManager;
 import uk.ac.ox.cs.pdq.util.GlobalCounterProvider;
+import util.SafeRewriting;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;
@@ -134,10 +135,15 @@ public class TestSafeRewriting {
 
         SafeRewriting safeRew2 = new SafeRewriting(out2);
 
+        log.info("Schema :" + s);
+        log.info("PV :" + v);
+
         log.info(safeRew.getInstanceRef());
 
         Assert.assertTrue(safeRew.isSafe(out1));
         Assert.assertEquals(1, out2.getAllDependencies().length);
+
+        log.info(out2.toString());
     }
 
     @Test
@@ -219,6 +225,43 @@ public class TestSafeRewriting {
 
         Schema result = safeRew.repair(newSchema, 1);
         Assert.assertTrue(safeRew.isSafe(result));
+    }
+
+    @Test
+    public void NHS_CaseTest_withOutputWriting() {
+
+        File policyViews = new File("./src/test/java/testFiles/NHS/policyViews.xml");
+        Schema policySchema = null;
+        try {
+            policySchema = IOManager.importSchema(policyViews);
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        File mappingToRewrite = new File("./src/test/java/testFiles/NHS/mappingToRewrite.xml");
+        Schema mappingToRewriteSchema = null;
+        try {
+            mappingToRewriteSchema = IOManager.importSchema(mappingToRewrite);
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+
+        SafeRewriting safeRew = new SafeRewriting(policySchema);
+
+        Schema result = safeRew.repair(mappingToRewriteSchema, 10);
+        Assert.assertTrue(safeRew.isSafe(result));
+
+        File outputFile = new File("./src/test/java/testFiles/NHS/outputTest.xml");
+        try {
+            IOManager.exportSchemaToXml(result, outputFile);
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
     }
 
     private DatabaseManager createConnection(DatabaseParameters params, Schema s) {

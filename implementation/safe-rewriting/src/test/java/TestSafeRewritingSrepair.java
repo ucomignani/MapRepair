@@ -9,6 +9,7 @@ import uk.ac.ox.cs.pdq.db.DatabaseParameters;
 import uk.ac.ox.cs.pdq.db.Schema;
 import uk.ac.ox.cs.pdq.util.GlobalCounterProvider;
 import util.ProvenanceGraph;
+import util.SafeRewriting;
 
 public class TestSafeRewritingSrepair {
 
@@ -45,6 +46,7 @@ public class TestSafeRewritingSrepair {
 
         Assert.assertTrue(safeRew.isSafe(srepairOutput));
         Assert.assertEquals(2, srepairOutput.getAllDependencies().length);
+        log.info(safeRew.provenance(s));
     }
 
     @Test
@@ -59,6 +61,7 @@ public class TestSafeRewritingSrepair {
         log.info(repairOutput);
         Assert.assertTrue(safeRew.isSafe(repairOutput));
         Assert.assertEquals(1, repairOutput.getAllDependencies().length);
+        log.info(safeRew.provenance(s));
     }
 
     @Test
@@ -75,6 +78,8 @@ public class TestSafeRewritingSrepair {
         log.info(repairOutput);
         Assert.assertTrue(safeRew.isSafe(repairOutput));
         Assert.assertEquals(2, repairOutput.getAllDependencies().length);
+        log.info(safeRew.provenance(s));
+
     }
 
     private DatabaseManager createConnection(DatabaseParameters params, Schema s) {

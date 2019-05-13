@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MapRepairGUI.MapRepair">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="26" width="992" height="582"/>
+    </constraints>
+    <properties>
+      <background color="-2430737"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="4dae6" binding="choiceViewMap">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6643033"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="90580" binding="tabViewDesign" layout-manager="GridLayoutManager" row-count="3" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Views design"/>
+            </constraints>
+            <properties>
+              <background color="-2430737"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="78272" class="javax.swing.JButton" binding="importViewsAsButton">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Import views from file"/>
+                </properties>
+              </component>
+              <component id="cab8a" class="javax.swing.JButton" binding="editCurrentViewButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Edit current view"/>
+                </properties>
+              </component>
+              <hspacer id="e4d16">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="e5763" class="javax.swing.JButton" binding="saveViewsAsButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Save views as..."/>
+                </properties>
+              </component>
+              <component id="f2472" class="javax.swing.JButton" binding="addNewViewButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Add new view"/>
+                </properties>
+              </component>
+              <hspacer id="f7d6a">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="9462a">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <grid id="944a3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="bcc7" layout-manager="GridLayoutManager" row-count="2" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2430737"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="d4627" binding="textViewsScroll">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="742ed" class="javax.swing.JTextArea" binding="textViewsDisclosure">
+                            <constraints/>
+                            <properties>
+                              <background color="-1"/>
+                              <caretColor color="-16777216"/>
+                              <editable value="false"/>
+                              <font size="20"/>
+                              <lineWrap value="false"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                      <component id="dcdbc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2430737"/>
+                          <font size="22" style="1"/>
+                          <foreground color="-16777216"/>
+                          <text value="Source information disclosure over source schema:"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a23bd" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2430737"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="8305d">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="f85f2" class="javax.swing.JTextArea" binding="viewTextArea">
+                            <constraints/>
+                            <properties>
+                              <background color="-1"/>
+                              <caretColor color="-16777216"/>
+                              <font size="18"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                      <component id="c4cb4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2430737"/>
+                          <font size="22" style="1"/>
+                          <foreground color="-16777216"/>
+                          <text value="Current views:"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="29a38" binding="tabMappDesign" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Mapping design"/>
+            </constraints>
+            <properties>
+              <background color="-2430737"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

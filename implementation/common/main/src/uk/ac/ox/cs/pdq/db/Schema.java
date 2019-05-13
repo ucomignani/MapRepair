@@ -179,6 +179,40 @@ public class Schema {
 		return result.toString();
 	}
 
+	public String dependenciesToViewString() {
+		StringBuilder result = new StringBuilder();
+		if (this.nonEgdDependencies.length > 0 || this.egdDependencies.length > 0) {
+			if (this.nonEgdDependencies.length > 0) {
+				for (Dependency ic : this.nonEgdDependencies) {
+					result.append(ic.toViewString()).append("\n\n");
+				}
+			}
+			if (this.egdDependencies.length > 0) {
+				for (Dependency ic : this.egdDependencies) {
+					result.append(ic.toViewString()).append("\n\n");
+				}
+			}
+		}
+		return result.toString();
+	}
+
+	public String dependenciesToTgdString() {
+		StringBuilder result = new StringBuilder();
+		if (this.nonEgdDependencies.length > 0 || this.egdDependencies.length > 0) {
+			if (this.nonEgdDependencies.length > 0) {
+				for (Dependency ic : this.nonEgdDependencies) {
+					result.append(ic.toTgdString()).append("\n\n");
+				}
+			}
+			if (this.egdDependencies.length > 0) {
+				for (Dependency ic : this.egdDependencies) {
+					result.append(ic.toTgdString()).append("\n\n");
+				}
+			}
+		}
+		return result.toString();
+	}
+
 	/**
 	 * Checks if the schema contains a relation.
 	 *

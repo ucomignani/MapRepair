@@ -19,6 +19,7 @@ import uk.ac.ox.cs.pdq.logging.StatisticsCollector;
 import uk.ac.ox.cs.pdq.reasoning.chase.VisibleChaser;
 import uk.ac.ox.cs.pdq.reasoning.chase.state.DatabaseChaseInstance;
 import uk.ac.ox.cs.pdq.util.GlobalCounterProvider;
+import util.SafeRewriting;
 
 import java.io.File;
 import java.util.ArrayList;
