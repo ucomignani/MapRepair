@@ -20,7 +20,7 @@
         <module>reasoning</module>
         <module>datasources</module>
         <module>safe-rewriting</module>
-        <module>MapRepairWS</module>
+        <!-- <module>MapRepairWS</module> -->
         <module>MapRepairGUI</module>
         <!-- <module>pdq-safe-rewriting-benchmark</module> -->
     </modules>

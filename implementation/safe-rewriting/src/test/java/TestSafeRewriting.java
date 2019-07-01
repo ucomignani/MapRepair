@@ -5,10 +5,7 @@ import uk.ac.ox.cs.pdq.databasemanagement.DatabaseManager;
 import uk.ac.ox.cs.pdq.databasemanagement.InternalDatabaseManager;
 import uk.ac.ox.cs.pdq.databasemanagement.cache.MultiInstanceFactCache;
 import uk.ac.ox.cs.pdq.databasemanagement.exception.DatabaseException;
-import uk.ac.ox.cs.pdq.db.Attribute;
-import uk.ac.ox.cs.pdq.db.DatabaseParameters;
-import uk.ac.ox.cs.pdq.db.Relation;
-import uk.ac.ox.cs.pdq.db.Schema;
+import uk.ac.ox.cs.pdq.db.*;
 import uk.ac.ox.cs.pdq.fol.Atom;
 import uk.ac.ox.cs.pdq.fol.Dependency;
 import uk.ac.ox.cs.pdq.fol.TGD;
@@ -22,6 +19,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class TestSafeRewriting {
@@ -262,6 +260,82 @@ public class TestSafeRewriting {
         } catch (JAXBException e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void test_GUI_hidePredicate_method() {
+
+        Schema s = InitExamples.initMappingTestHidePredicate1();
+        Schema v = InitExamples.initPolicyViewsTestHidePredicate1();
+
+
+        SafeRewriting safeRew = new SafeRewriting(v);
+
+        Schema result = safeRew.repair(s, 10);
+        Assert.assertTrue(safeRew.isSafe(result));
+        Assert.assertTrue(safeRew.getHiddenPredicates().size() == 1);
+
+        log.info("Result: " + result);
+
+        log.info("Hidden predicate: " + safeRew.getHiddenPredicates());
+        log.info("New frontier: " + safeRew.getNewFrontier());
+        log.info("New non frontier: " + safeRew.getNewNonFrontier());
+
+    }
+
+    @Test
+    public void test_GUI_NonFrontierVars_method() {
+
+        Schema s = InitExamples.initMappingTestBreakNullJoins4();
+        Schema v = InitExamples.initPolicyViewsTestBreakNullJoins4();
+
+        SafeRewriting safeRew = new SafeRewriting(v);
+
+        Schema repairOutput = safeRew.repair(s, 10);
+
+        Assert.assertTrue(safeRew.isSafe(repairOutput));
+
+        log.info("Result: " + repairOutput);
+
+        log.info("Hidden predicate: " + safeRew.getHiddenPredicates());
+        log.info("New frontier: " + safeRew.getNewFrontier());
+        log.info("New non frontier: " + safeRew.getNewNonFrontier());
+
+    }
+
+    @Test
+    public void test_GUI_FrontierVars_method() {
+
+        File policyViews = new File("./src/test/java/testFiles/GUI/policyViews.xml");
+        Schema v = null;
+        try {
+            v = IOManager.importSchema(policyViews);
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        File mappingToRewrite = new File("./src/test/java/testFiles/GUI/MappingToRewrite.xml");
+        Schema s = null;
+        try {
+            s = IOManager.importSchema(mappingToRewrite);
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        SafeRewriting safeRew = new SafeRewriting(v);
+
+        Schema result = safeRew.repair(s, 10);
+
+        SafeRewriting test = new SafeRewriting(s);
+        List<Match> matches = test.getMorphism(result);
+
+        Assert.assertTrue(safeRew.isSafe(result));
+        log.info("Mapping: " + matches);
+
+
     }
 
     private DatabaseManager createConnection(DatabaseParameters params, Schema s) {
